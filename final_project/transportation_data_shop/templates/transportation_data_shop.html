@@ -1,0 +1,204 @@
+{% load static %} 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>transportation data shop</title>
+  <link rel="stylesheet" href="{% static 'styles.css' %}"/>
+  <style>
+    /* Map Container 스타일 */
+    .map-container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 15px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .map-container h3 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .map-container iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="user-cart-container">
+    <!-- 사용자 정보 -->
+    <div class="user-info">
+      {% if name %}
+        <h2>Welcome, {{ name }}!</h2>
+      {% else %}
+        <a href="/login/">Login</a>
+        <a href="/register/">Register</a>
+      {% endif %}
+    </div>
+  
+    <!-- 장바구니 -->
+    <div class="cart">
+      <a href="/cart/" style="display: flex; align-items: center; text-decoration: none;">
+        <img src="https://cdn-icons-png.flaticon.com/512/1170/1170576.png" alt="스마트 카트 아이콘" />
+      </a>
+    </div>
+  </div>
+  
+
+  <!-- 호선 및 자치구 선택 -->
+  <div class="selection-map-container">
+    <form id="subway-form" method="post" action="/subway-view/" style="display: flex; justify-content: space-between; align-items: flex-start;">
+      {% csrf_token %}
+      <div style="flex: 1; padding: 10px;">
+        <h3>호선 선택</h3>
+        <div>
+          <button type="button" onclick="toggleCheckboxes('line', true)">호선 전체 선택</button>
+          <button type="button" onclick="toggleCheckboxes('line', false)">호선 전체 해제</button>
+        </div>
+
+        <!-- 호선 체크박스 -->
+        <label><input type="checkbox" name="line" value="1호선,경원선,경춘선,경인선,중앙선,경부선"> 1호선</label><br>
+        <label><input type="checkbox" name="line" value="2호선"> 2호선</label><br>
+        <label><input type="checkbox" name="line" value="3호선"> 3호선</label><br>
+        <label><input type="checkbox" name="line" value="4호선"> 4호선</label><br>
+        <label><input type="checkbox" name="line" value="5호선"> 5호선</label><br>
+        <label><input type="checkbox" name="line" value="6호선"> 6호선</label><br>
+        <label><input type="checkbox" name="line" value="7호선"> 7호선</label><br>
+        <label><input type="checkbox" name="line" value="8호선"> 8호선</label><br>
+        <label><input type="checkbox" name="line" value="9호선"> 9호선</label><br>
+      </div>
+
+      <div style="flex: 1; padding: 10px;">
+        <h3>자치구 선택</h3>
+        <div>
+          <button type="button" onclick="toggleCheckboxes('district', true)">자치구 전체 선택</button>
+          <button type="button" onclick="toggleCheckboxes('district', false)">자치구 전체 해제</button>
+        </div>
+
+        <!-- 자치구 체크박스 -->
+        <label><input type="checkbox" name="district" value="은평구"> 은평구</label><br>
+        <label><input type="checkbox" name="district" value="서대문구"> 서대문구</label><br>
+        <label><input type="checkbox" name="district" value="마포구"> 마포구</label><br>
+        <label><input type="checkbox" name="district" value="종로구"> 종로구</label><br>
+        <label><input type="checkbox" name="district" value="중구"> 중구</label><br>
+        <label><input type="checkbox" name="district" value="용산구"> 용산구</label><br>
+        <label><input type="checkbox" name="district" value="성북구"> 성북구</label><br>
+        <label><input type="checkbox" name="district" value="강북구"> 강북구</label><br>
+        <label><input type="checkbox" name="district" value="동대문구"> 동대문구</label><br>
+        <label><input type="checkbox" name="district" value="성동구"> 성동구</label><br>
+        <label><input type="checkbox" name="district" value="도봉구"> 도봉구</label><br>
+        <label><input type="checkbox" name="district" value="노원구"> 노원구</label><br>
+        <label><input type="checkbox" name="district" value="중랑구"> 중랑구</label><br>
+        <label><input type="checkbox" name="district" value="광진구"> 광진구</label><br>
+        <label><input type="checkbox" name="district" value="강서구"> 강서구</label><br>
+        <label><input type="checkbox" name="district" value="양천구"> 양천구</label><br>
+        <label><input type="checkbox" name="district" value="구로구"> 구로구</label><br>
+        <label><input type="checkbox" name="district" value="영등포구"> 영등포구</label><br>
+        <label><input type="checkbox" name="district" value="동작구"> 동작구</label><br>
+        <label><input type="checkbox" name="district" value="금천구"> 금천구</label><br>
+        <label><input type="checkbox" name="district" value="관악구"> 관악구</label><br>
+        <label><input type="checkbox" name="district" value="서초구"> 서초구</label><br>
+        <label><input type="checkbox" name="district" value="강남구"> 강남구</label><br>
+        <label><input type="checkbox" name="district" value="송파구"> 송파구</label><br>
+        <label><input type="checkbox" name="district" value="강동구"> 강동구</label><br>
+      </div>
+    </form>
+  
+    <div class="vertical-container">
+      <div>
+        <button type="submit" form="subway-form">데이터 보기</button>
+      </div>
+      <div>
+        <h3>선택한 호선:</h3>
+        <p id="choosed-lines">{{ choosed_lines }}</p>
+      </div>
+      <div>
+        <h3>선택한 자치구:</h3>
+        <p id="choosed-districts">{{ choosed_districts }}</p>
+      </div>
+      <div style="margin-top: 20px;">
+        <button type="button" onclick="addSelectionsToCart()">장바구니에 담기</button>
+      </div>
+    </div>
+  </div>
+  <div class="map-container">
+    <h3>지도</h3>
+    {{ map | safe }}
+  </div>
+
+  
+
+  <script>
+    // 특정 그룹(호선 또는 자치구)의 체크박스를 모두 선택하거나 해제하는 함수
+    function toggleCheckboxes(groupName, isChecked) {
+      const checkboxes = document.querySelectorAll(`input[name="${groupName}"]`);
+      checkboxes.forEach(checkbox => checkbox.checked = isChecked);
+    }
+
+    // 장바구니 추가 예제 함수
+    function addToCart() {
+      alert("장바구니에 항목이 추가되었습니다!");
+      // 실제 구현은 서버에 데이터를 보낼 필요가 있음.
+    }
+  </script>
+
+  <script>
+    function addSelectionsToCart() {
+      // 선택된 호선과 자치구 문자열 가져오기
+      const choosedLines = document.getElementById('choosed-lines').textContent.trim();
+      const choosedDistricts = document.getElementById('choosed-districts').textContent.trim();
+
+      // 데이터가 비어있는 경우 알림
+      if (!choosedLines && !choosedDistricts) {
+        alert("선택된 데이터가 없습니다.");
+        return;
+      }
+
+      const alias = prompt("데이터에 대한 별칭을 입력하세요:", "ex) 내 데이터");
+
+      // 별칭이 입력되지 않은 경우 처리
+      if (!alias) {
+        alert("별칭이 필요합니다.");
+        return;
+      }
+
+
+      // JSON 데이터 생성
+      const data = {
+        choosed_lines: choosedLines,
+        choosed_districts: choosedDistricts,
+        alias: alias,
+      };
+
+      // 서버에 데이터 전송
+      fetch('/add-to-cart/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': '{{ csrf_token }}', // CSRF 토큰
+        },
+        body: JSON.stringify(data),
+      })
+        .then(response => {
+          if (response.ok) {
+            return response.json();
+          } else {
+            throw new Error('장바구니 추가에 실패했습니다.');
+          }
+        })
+        .then(data => {
+          alert(data.message || '장바구니에 추가되었습니다!');
+        })
+        .catch(error => {
+          console.error('에러:', error);
+          alert('장바구니 추가 중 에러가 발생했습니다.');
+        });
+    }
+  </script>
+</body>

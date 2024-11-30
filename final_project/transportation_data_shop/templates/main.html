@@ -1,0 +1,27 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Website</h1>
+        <p>Please choose an action:</p>
+        <div>
+          {% if name %}
+            <p>Hello, {{ name }}!</p>
+            <a href="/subway-view/">Subway View</a>
+            <a href="/my-page/">My Page</a>
+          {% else %}
+            <a href="/login/">Login</a>
+            <a href="/register/">Register</a>
+            <a href="/subway-view/">Subway View</a>
+          {% endif %}
+        </div>
+    </div>
+</body>
+</html>

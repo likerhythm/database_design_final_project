@@ -1,0 +1,127 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <style>
+    .toggle-content {
+      display: none;
+      margin-top: 10px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+    .toggle-btn {
+      cursor: pointer;
+      color: #007bff;
+      text-decoration: underline;
+      border: none;
+      background: none;
+      font-size: 16px;
+      padding: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="{% static 'styles.css' %}"/>
+</head>
+<body>
+  <h1>{{ name }}님의 장바구니</h1>
+  
+  {% if product_list %}
+    <h2>장바구니 목록:</h2>
+    <form id="cart-form">
+      <ul>
+        {% for product in product_list %}
+          <li>
+            <label>
+              <input type="checkbox" class="product-checkbox" 
+                     data-cost="{{ product.cost }}" 
+                     data-custom-name="{{ product.custom_name }}">
+            </label>
+            <strong></strong> {{ product.custom_name }}<br>
+            <strong>가격:</strong> {{ product.cost }}원<br>
+
+            <button class="toggle-btn" onclick="toggleContent(this)" type="button">호선 및 자치구 보기</button>
+            <div class="toggle-content">
+              <strong>호선:</strong> {{ product.lines }}<br>
+              <strong>자치구:</strong> {{ product.districts }}<br>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+      <button type="button" onclick="submitSelectedItems()">선택한 항목 구매하기</button>
+    </form>
+  {% else %}
+    <p>장바구니가 비어 있습니다.</p>
+  {% endif %}
+
+  <a href="/">메인 페이지로 이동</a>
+
+  <script>
+    function toggleContent(button) {
+      const content = button.nextElementSibling; // 버튼 다음 요소인 .toggle-content 선택
+      if (content.style.display === "none" || content.style.display === "") {
+        content.style.display = "block"; // 보이기
+        button.textContent = "호선 및 자치구 숨기기"; // 버튼 텍스트 변경
+      } else {
+        content.style.display = "none"; // 숨기기
+        button.textContent = "호선 및 자치구 보기"; // 버튼 텍스트 변경
+      }
+    }
+
+    function submitSelectedItems() {
+  // 선택된 체크박스 가져오기
+  const selectedCheckboxes = document.querySelectorAll('.product-checkbox:checked');
+  if (selectedCheckboxes.length === 0) {
+    alert("선택된 항목이 없습니다.");
+    return;
+  }
+
+  // 선택된 항목의 데이터 수집
+  const selectedItems = Array.from(selectedCheckboxes).map(checkbox => ({
+    custom_name: checkbox.getAttribute('data-custom-name'),
+    cost: parseInt(checkbox.getAttribute('data-cost')),
+  }));
+
+  // 서버에 전송할 JSON 데이터
+  const data = {
+    items: selectedItems,
+  };
+
+  // 서버로 데이터 전송
+  fetch('/submit-selected-items/', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'X-CSRFToken': '{{ csrf_token }}', // Django의 CSRF 토큰
+    },
+    body: JSON.stringify(data),
+  })
+    .then(response => {
+      if (response.ok) {
+        return response.json();
+      } else if (response.status === 400) {
+        // 백엔드에서 잔액 부족 등의 이유로 400 에러를 반환한 경우 처리
+        return response.json().then(errorData => {
+          alert(errorData.message || '잔액이 부족하거나 요청이 잘못되었습니다.');
+          throw new Error(errorData.message || 'Bad Request');
+        });
+      } else {
+        throw new Error('서버에서 알 수 없는 오류가 발생했습니다.');
+      }
+    })
+    .then(responseData => {
+      alert(responseData.message || '선택 항목이 서버로 전달되었습니다!');
+      window.location.href = '/cart/';
+    })
+    .catch(error => {
+      console.error('에러:', error);
+      alert('서버로 데이터 전송 중 오류가 발생했습니다.');
+    });
+}
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}"/>
+</head>
+<body>
+    <h1>My Page</h1>
+    <div>
+        <p><strong>이름:</strong> {{ name }}</p>
+        <p><strong>캐시:</strong> {{ cash|floatformat:2 }} 원</p>
+    </div>
+    <div>
+        <h2>다운로드 가능한 파일</h2>
+        {% if file_names %}
+            <ul>
+                {% for file_name in file_names %}
+                    <a href="/download/{{ file_name }}/">{{ file_name }}</a>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No files available for download.</p>
+        {% endif %}
+    </div>
+    <div>
+        <h2>캐시 충전</h2>
+        <form method="POST" action="/charge-cash/">
+            {% csrf_token %}
+            <label for="amount">금액 입력:</label>
+            <input type="number" id="amount" name="amount" min="1" required>
+            <button type="submit">충전하기</button>
+        </form>
+    </div>
+    <a href="/">메인메뉴로 돌아가기</a>
+</body>
+</html>

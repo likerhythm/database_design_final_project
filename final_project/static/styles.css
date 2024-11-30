@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1 {
+  color: #007bff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #007bff;
+  padding: 10px 20px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  margin: 5px;
+  display: inline-block; /* 겹치지 않게 하기 위해 추가 */
+}
+
+a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 0; /* 위아래 여백 추가 */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Containers */
+div {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Layout */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons Container */
+.buttons-container {
+  display: flex;
+  flex-direction: column; /* 버튼들을 세로로 배치 */
+  align-items: center;
+  gap: 10px; /* 버튼 간 간격 */
+}
+
+/* 사용자 정보와 장바구니를 가로로 배치 */
+.user-cart-container {
+  display: flex;
+  justify-content: space-between; /* 좌우로 최대한 간격 */
+  align-items: center; /* 세로 정렬 중앙 */
+  padding: 10px;
+  background-color: #fff; /* 필요에 따라 배경색 설정 */
+  border-radius: 10px; /* 둥근 모서리 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 가벼운 그림자 */
+  margin-bottom: 20px; /* 다른 섹션과 여백 추가 */
+}
+
+/* 사용자 정보 */
+.user-info {
+  flex: 1; /* 사용자 정보가 넓이를 차지하게 함 */
+  text-align: left; /* 텍스트를 왼쪽 정렬 */
+}
+
+/* 장바구니 */
+.cart img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.cart {
+  flex: 0; /* 고정 크기로 설정 */
+}
+
+.selection-map-container {
+  display: flex;
+  justify-content: space-between; /* 가로로 균등 배치 */
+  gap: 20px; /* 각 요소 간 간격 */
+  align-items: flex-start; /* 세로 정렬 상단 */
+  margin: 20px auto;
+  max-width: 1200px; /* 최대 너비 제한 */
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction: column; /* 세로 배치 */
+  align-items: center; /* 가로 가운데 정렬 */
+  gap: 20px; /* 각 항목 간 간격 */
+  margin: 20px auto;
+  max-width: 800px; /* 컨테이너 최대 너비 제한 */
+}

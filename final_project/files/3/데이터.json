@@ -1,0 +1,498 @@
+[
+    {
+        "id": 150,
+        "name": "서울역",
+        "line": "1호선",
+        "latitude": 37.556228,
+        "longitude": 126.972135,
+        "district": "중구"
+    },
+    {
+        "id": 151,
+        "name": "시청",
+        "line": "1호선",
+        "latitude": 37.565715,
+        "longitude": 126.977088,
+        "district": "중구"
+    },
+    {
+        "id": 152,
+        "name": "종각",
+        "line": "1호선",
+        "latitude": 37.570161,
+        "longitude": 126.982923,
+        "district": "종로구"
+    },
+    {
+        "id": 153,
+        "name": "종로3가",
+        "line": "1호선",
+        "latitude": 37.570406,
+        "longitude": 126.991847,
+        "district": "종로구"
+    },
+    {
+        "id": 154,
+        "name": "종로5가",
+        "line": "1호선",
+        "latitude": 37.570926,
+        "longitude": 127.001849,
+        "district": "종로구"
+    },
+    {
+        "id": 155,
+        "name": "동대문",
+        "line": "1호선",
+        "latitude": 37.571687,
+        "longitude": 127.01093,
+        "district": "종로구"
+    },
+    {
+        "id": 159,
+        "name": "동묘앞",
+        "line": "1호선",
+        "latitude": 37.573197,
+        "longitude": 127.01648,
+        "district": "종로구"
+    },
+    {
+        "id": 201,
+        "name": "시청",
+        "line": "2호선",
+        "latitude": 37.563588,
+        "longitude": 126.975411,
+        "district": "중구"
+    },
+    {
+        "id": 202,
+        "name": "을지로입구",
+        "line": "2호선",
+        "latitude": 37.566014,
+        "longitude": 126.982618,
+        "district": "중구"
+    },
+    {
+        "id": 203,
+        "name": "을지로3가",
+        "line": "2호선",
+        "latitude": 37.566306,
+        "longitude": 126.991696,
+        "district": "중구"
+    },
+    {
+        "id": 204,
+        "name": "을지로4가",
+        "line": "2호선",
+        "latitude": 37.566595,
+        "longitude": 126.997817,
+        "district": "중구"
+    },
+    {
+        "id": 205,
+        "name": "동대문역사문화공원",
+        "line": "2호선",
+        "latitude": 37.565613,
+        "longitude": 127.009054,
+        "district": "중구"
+    },
+    {
+        "id": 206,
+        "name": "신당",
+        "line": "2호선",
+        "latitude": 37.56564,
+        "longitude": 127.019614,
+        "district": "중구"
+    },
+    {
+        "id": 317,
+        "name": "경복궁(정부서울청사)",
+        "line": "3호선",
+        "latitude": 37.575762,
+        "longitude": 126.97353,
+        "district": "종로구"
+    },
+    {
+        "id": 318,
+        "name": "안국",
+        "line": "3호선",
+        "latitude": 37.576477,
+        "longitude": 126.985443,
+        "district": "종로구"
+    },
+    {
+        "id": 319,
+        "name": "종로3가",
+        "line": "3호선",
+        "latitude": 37.571605,
+        "longitude": 126.991791,
+        "district": "종로구"
+    },
+    {
+        "id": 320,
+        "name": "을지로3가",
+        "line": "3호선",
+        "latitude": 37.566672,
+        "longitude": 126.992548,
+        "district": "중구"
+    },
+    {
+        "id": 321,
+        "name": "충무로",
+        "line": "3호선",
+        "latitude": 37.56143,
+        "longitude": 126.994072,
+        "district": "중구"
+    },
+    {
+        "id": 322,
+        "name": "동대입구",
+        "line": "3호선",
+        "latitude": 37.559052,
+        "longitude": 127.005602,
+        "district": "중구"
+    },
+    {
+        "id": 323,
+        "name": "약수",
+        "line": "3호선",
+        "latitude": 37.554867,
+        "longitude": 127.010541,
+        "district": "중구"
+    },
+    {
+        "id": 420,
+        "name": "혜화",
+        "line": "4호선",
+        "latitude": 37.582336,
+        "longitude": 127.001844,
+        "district": "종로구"
+    },
+    {
+        "id": 421,
+        "name": "동대문",
+        "line": "4호선",
+        "latitude": 37.57093,
+        "longitude": 127.009287,
+        "district": "종로구"
+    },
+    {
+        "id": 422,
+        "name": "동대문역사문화공원",
+        "line": "4호선",
+        "latitude": 37.565133,
+        "longitude": 127.007885,
+        "district": "중구"
+    },
+    {
+        "id": 423,
+        "name": "충무로",
+        "line": "4호선",
+        "latitude": 37.561207,
+        "longitude": 126.99408,
+        "district": "중구"
+    },
+    {
+        "id": 424,
+        "name": "명동",
+        "line": "4호선",
+        "latitude": 37.560989,
+        "longitude": 126.986325,
+        "district": "중구"
+    },
+    {
+        "id": 425,
+        "name": "회현(남대문시장)",
+        "line": "4호선",
+        "latitude": 37.558514,
+        "longitude": 126.978246,
+        "district": "중구"
+    },
+    {
+        "id": 426,
+        "name": "서울역",
+        "line": "4호선",
+        "latitude": 37.55281,
+        "longitude": 126.972556,
+        "district": "용산구"
+    },
+    {
+        "id": 427,
+        "name": "숙대입구(갈월)",
+        "line": "4호선",
+        "latitude": 37.54456,
+        "longitude": 126.972106,
+        "district": "용산구"
+    },
+    {
+        "id": 428,
+        "name": "삼각지",
+        "line": "4호선",
+        "latitude": 37.534075,
+        "longitude": 126.9726,
+        "district": "용산구"
+    },
+    {
+        "id": 429,
+        "name": "신용산",
+        "line": "4호선",
+        "latitude": 37.52917,
+        "longitude": 126.967894,
+        "district": "용산구"
+    },
+    {
+        "id": 430,
+        "name": "이촌(국립중앙박물관)",
+        "line": "4호선",
+        "latitude": 37.522295,
+        "longitude": 126.974733,
+        "district": "용산구"
+    },
+    {
+        "id": 10647,
+        "name": "이촌(국립중앙박물관)",
+        "line": "4호선",
+        "latitude": 37.522295,
+        "longitude": 126.974733,
+        "district": "용산구"
+    },
+    {
+        "id": 10648,
+        "name": "신용산",
+        "line": "4호선",
+        "latitude": 37.52917,
+        "longitude": 126.967894,
+        "district": "용산구"
+    },
+    {
+        "id": 10649,
+        "name": "삼각지",
+        "line": "4호선",
+        "latitude": 37.534075,
+        "longitude": 126.9726,
+        "district": "용산구"
+    },
+    {
+        "id": 10650,
+        "name": "숙대입구(갈월)",
+        "line": "4호선",
+        "latitude": 37.54456,
+        "longitude": 126.972106,
+        "district": "용산구"
+    },
+    {
+        "id": 10651,
+        "name": "서울역",
+        "line": "4호선",
+        "latitude": 37.55281,
+        "longitude": 126.972556,
+        "district": "용산구"
+    },
+    {
+        "id": 10652,
+        "name": "회현(남대문시장)",
+        "line": "4호선",
+        "latitude": 37.558514,
+        "longitude": 126.978246,
+        "district": "중구"
+    },
+    {
+        "id": 10653,
+        "name": "명동",
+        "line": "4호선",
+        "latitude": 37.560989,
+        "longitude": 126.986325,
+        "district": "중구"
+    },
+    {
+        "id": 10654,
+        "name": "충무로",
+        "line": "4호선",
+        "latitude": 37.561207,
+        "longitude": 126.99408,
+        "district": "중구"
+    },
+    {
+        "id": 10655,
+        "name": "동대문역사문화공원",
+        "line": "4호선",
+        "latitude": 37.565133,
+        "longitude": 127.007885,
+        "district": "중구"
+    },
+    {
+        "id": 10656,
+        "name": "동대문",
+        "line": "4호선",
+        "latitude": 37.57093,
+        "longitude": 127.009287,
+        "district": "종로구"
+    },
+    {
+        "id": 10657,
+        "name": "혜화",
+        "line": "4호선",
+        "latitude": 37.582336,
+        "longitude": 127.001844,
+        "district": "종로구"
+    },
+    {
+        "id": 10691,
+        "name": "약수",
+        "line": "3호선",
+        "latitude": 37.554867,
+        "longitude": 127.010541,
+        "district": "중구"
+    },
+    {
+        "id": 10692,
+        "name": "동대입구",
+        "line": "3호선",
+        "latitude": 37.559052,
+        "longitude": 127.005602,
+        "district": "중구"
+    },
+    {
+        "id": 10693,
+        "name": "충무로",
+        "line": "3호선",
+        "latitude": 37.56143,
+        "longitude": 126.994072,
+        "district": "중구"
+    },
+    {
+        "id": 10694,
+        "name": "을지로3가",
+        "line": "3호선",
+        "latitude": 37.566672,
+        "longitude": 126.992548,
+        "district": "중구"
+    },
+    {
+        "id": 10695,
+        "name": "종로3가",
+        "line": "3호선",
+        "latitude": 37.571605,
+        "longitude": 126.991791,
+        "district": "종로구"
+    },
+    {
+        "id": 10696,
+        "name": "안국",
+        "line": "3호선",
+        "latitude": 37.576477,
+        "longitude": 126.985443,
+        "district": "종로구"
+    },
+    {
+        "id": 10697,
+        "name": "경복궁(정부서울청사)",
+        "line": "3호선",
+        "latitude": 37.575762,
+        "longitude": 126.97353,
+        "district": "종로구"
+    },
+    {
+        "id": 10750,
+        "name": "신당",
+        "line": "2호선",
+        "latitude": 37.56564,
+        "longitude": 127.019614,
+        "district": "중구"
+    },
+    {
+        "id": 10751,
+        "name": "동대문역사문화공원",
+        "line": "2호선",
+        "latitude": 37.565613,
+        "longitude": 127.009054,
+        "district": "중구"
+    },
+    {
+        "id": 10752,
+        "name": "을지로4가",
+        "line": "2호선",
+        "latitude": 37.566595,
+        "longitude": 126.997817,
+        "district": "중구"
+    },
+    {
+        "id": 10753,
+        "name": "을지로3가",
+        "line": "2호선",
+        "latitude": 37.566306,
+        "longitude": 126.991696,
+        "district": "중구"
+    },
+    {
+        "id": 10754,
+        "name": "을지로입구",
+        "line": "2호선",
+        "latitude": 37.566014,
+        "longitude": 126.982618,
+        "district": "중구"
+    },
+    {
+        "id": 10755,
+        "name": "시청",
+        "line": "2호선",
+        "latitude": 37.563588,
+        "longitude": 126.975411,
+        "district": "중구"
+    },
+    {
+        "id": 10756,
+        "name": "동묘앞",
+        "line": "1호선",
+        "latitude": 37.573197,
+        "longitude": 127.01648,
+        "district": "종로구"
+    },
+    {
+        "id": 10760,
+        "name": "동대문",
+        "line": "1호선",
+        "latitude": 37.571687,
+        "longitude": 127.01093,
+        "district": "종로구"
+    },
+    {
+        "id": 10761,
+        "name": "종로5가",
+        "line": "1호선",
+        "latitude": 37.570926,
+        "longitude": 127.001849,
+        "district": "종로구"
+    },
+    {
+        "id": 10762,
+        "name": "종로3가",
+        "line": "1호선",
+        "latitude": 37.570406,
+        "longitude": 126.991847,
+        "district": "종로구"
+    },
+    {
+        "id": 10763,
+        "name": "종각",
+        "line": "1호선",
+        "latitude": 37.570161,
+        "longitude": 126.982923,
+        "district": "종로구"
+    },
+    {
+        "id": 10764,
+        "name": "시청",
+        "line": "1호선",
+        "latitude": 37.565715,
+        "longitude": 126.977088,
+        "district": "중구"
+    },
+    {
+        "id": 10765,
+        "name": "서울역",
+        "line": "1호선",
+        "latitude": 37.556228,
+        "longitude": 126.972135,
+        "district": "중구"
+    }
+]

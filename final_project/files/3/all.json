@@ -1,0 +1,4594 @@
+[
+    {
+        "id": 150,
+        "name": "서울역",
+        "line": "1호선",
+        "latitude": 37.556228,
+        "longitude": 126.972135,
+        "district": "중구"
+    },
+    {
+        "id": 151,
+        "name": "시청",
+        "line": "1호선",
+        "latitude": 37.565715,
+        "longitude": 126.977088,
+        "district": "중구"
+    },
+    {
+        "id": 152,
+        "name": "종각",
+        "line": "1호선",
+        "latitude": 37.570161,
+        "longitude": 126.982923,
+        "district": "종로구"
+    },
+    {
+        "id": 153,
+        "name": "종로3가",
+        "line": "1호선",
+        "latitude": 37.570406,
+        "longitude": 126.991847,
+        "district": "종로구"
+    },
+    {
+        "id": 154,
+        "name": "종로5가",
+        "line": "1호선",
+        "latitude": 37.570926,
+        "longitude": 127.001849,
+        "district": "종로구"
+    },
+    {
+        "id": 155,
+        "name": "동대문",
+        "line": "1호선",
+        "latitude": 37.571687,
+        "longitude": 127.01093,
+        "district": "종로구"
+    },
+    {
+        "id": 156,
+        "name": "신설동",
+        "line": "1호선",
+        "latitude": 37.576048,
+        "longitude": 127.024634,
+        "district": "동대문구"
+    },
+    {
+        "id": 157,
+        "name": "제기동",
+        "line": "1호선",
+        "latitude": 37.578103,
+        "longitude": 127.034893,
+        "district": "동대문구"
+    },
+    {
+        "id": 158,
+        "name": "청량리(서울시립대입구)",
+        "line": "1호선",
+        "latitude": 37.579956,
+        "longitude": 127.044585,
+        "district": "동대문구"
+    },
+    {
+        "id": 159,
+        "name": "동묘앞",
+        "line": "1호선",
+        "latitude": 37.573197,
+        "longitude": 127.01648,
+        "district": "종로구"
+    },
+    {
+        "id": 201,
+        "name": "시청",
+        "line": "2호선",
+        "latitude": 37.563588,
+        "longitude": 126.975411,
+        "district": "중구"
+    },
+    {
+        "id": 202,
+        "name": "을지로입구",
+        "line": "2호선",
+        "latitude": 37.566014,
+        "longitude": 126.982618,
+        "district": "중구"
+    },
+    {
+        "id": 203,
+        "name": "을지로3가",
+        "line": "2호선",
+        "latitude": 37.566306,
+        "longitude": 126.991696,
+        "district": "중구"
+    },
+    {
+        "id": 204,
+        "name": "을지로4가",
+        "line": "2호선",
+        "latitude": 37.566595,
+        "longitude": 126.997817,
+        "district": "중구"
+    },
+    {
+        "id": 205,
+        "name": "동대문역사문화공원",
+        "line": "2호선",
+        "latitude": 37.565613,
+        "longitude": 127.009054,
+        "district": "중구"
+    },
+    {
+        "id": 206,
+        "name": "신당",
+        "line": "2호선",
+        "latitude": 37.56564,
+        "longitude": 127.019614,
+        "district": "중구"
+    },
+    {
+        "id": 207,
+        "name": "상왕십리",
+        "line": "2호선",
+        "latitude": 37.564354,
+        "longitude": 127.029354,
+        "district": "성동구"
+    },
+    {
+        "id": 208,
+        "name": "왕십리(성동구청)",
+        "line": "2호선",
+        "latitude": 37.561238,
+        "longitude": 127.036954,
+        "district": "성동구"
+    },
+    {
+        "id": 209,
+        "name": "한양대",
+        "line": "2호선",
+        "latitude": 37.555273,
+        "longitude": 127.043655,
+        "district": "성동구"
+    },
+    {
+        "id": 210,
+        "name": "뚝섬",
+        "line": "2호선",
+        "latitude": 37.547184,
+        "longitude": 127.047367,
+        "district": "성동구"
+    },
+    {
+        "id": 211,
+        "name": "성수",
+        "line": "2호선",
+        "latitude": 37.544581,
+        "longitude": 127.055961,
+        "district": "성동구"
+    },
+    {
+        "id": 212,
+        "name": "건대입구",
+        "line": "2호선",
+        "latitude": 37.540373,
+        "longitude": 127.069191,
+        "district": "광진구"
+    },
+    {
+        "id": 213,
+        "name": "구의(광진구청)",
+        "line": "2호선",
+        "latitude": 37.537077,
+        "longitude": 127.085916,
+        "district": "광진구"
+    },
+    {
+        "id": 214,
+        "name": "강변(동서울터미널)",
+        "line": "2호선",
+        "latitude": 37.535095,
+        "longitude": 127.094681,
+        "district": "광진구"
+    },
+    {
+        "id": 215,
+        "name": "잠실나루",
+        "line": "2호선",
+        "latitude": 37.520733,
+        "longitude": 127.10379,
+        "district": "송파구"
+    },
+    {
+        "id": 216,
+        "name": "잠실(송파구청)",
+        "line": "2호선",
+        "latitude": 37.513262,
+        "longitude": 127.100159,
+        "district": "송파구"
+    },
+    {
+        "id": 217,
+        "name": "잠실새내",
+        "line": "2호선",
+        "latitude": 37.511687,
+        "longitude": 127.086162,
+        "district": "송파구"
+    },
+    {
+        "id": 218,
+        "name": "종합운동장",
+        "line": "2호선",
+        "latitude": 37.511022,
+        "longitude": 127.073704,
+        "district": "송파구"
+    },
+    {
+        "id": 219,
+        "name": "삼성(무역센터)",
+        "line": "2호선",
+        "latitude": 37.508844,
+        "longitude": 127.06316,
+        "district": "강남구"
+    },
+    {
+        "id": 220,
+        "name": "선릉",
+        "line": "2호선",
+        "latitude": 37.504286,
+        "longitude": 127.048203,
+        "district": "강남구"
+    },
+    {
+        "id": 221,
+        "name": "역삼",
+        "line": "2호선",
+        "latitude": 37.500622,
+        "longitude": 127.036456,
+        "district": "강남구"
+    },
+    {
+        "id": 222,
+        "name": "강남",
+        "line": "2호선",
+        "latitude": 37.49799,
+        "longitude": 127.027912,
+        "district": "서초구"
+    },
+    {
+        "id": 223,
+        "name": "교대(법원.검찰청)",
+        "line": "2호선",
+        "latitude": 37.493961,
+        "longitude": 127.014667,
+        "district": "서초구"
+    },
+    {
+        "id": 224,
+        "name": "서초",
+        "line": "2호선",
+        "latitude": 37.491897,
+        "longitude": 127.007917,
+        "district": "서초구"
+    },
+    {
+        "id": 225,
+        "name": "방배",
+        "line": "2호선",
+        "latitude": 37.481426,
+        "longitude": 126.997596,
+        "district": "서초구"
+    },
+    {
+        "id": 226,
+        "name": "사당",
+        "line": "2호선",
+        "latitude": 37.476538,
+        "longitude": 126.981544,
+        "district": "관악구"
+    },
+    {
+        "id": 227,
+        "name": "낙성대",
+        "line": "2호선",
+        "latitude": 37.47693,
+        "longitude": 126.963693,
+        "district": "관악구"
+    },
+    {
+        "id": 228,
+        "name": "서울대입구(관악구청)",
+        "line": "2호선",
+        "latitude": 37.481247,
+        "longitude": 126.952739,
+        "district": "관악구"
+    },
+    {
+        "id": 229,
+        "name": "봉천",
+        "line": "2호선",
+        "latitude": 37.482362,
+        "longitude": 126.941892,
+        "district": "관악구"
+    },
+    {
+        "id": 230,
+        "name": "신림",
+        "line": "2호선",
+        "latitude": 37.484201,
+        "longitude": 126.929715,
+        "district": "관악구"
+    },
+    {
+        "id": 231,
+        "name": "신대방",
+        "line": "2호선",
+        "latitude": 37.487462,
+        "longitude": 126.913149,
+        "district": "관악구"
+    },
+    {
+        "id": 232,
+        "name": "구로디지털단지",
+        "line": "2호선",
+        "latitude": 37.485266,
+        "longitude": 126.901401,
+        "district": "영등포구"
+    },
+    {
+        "id": 233,
+        "name": "대림(구로구청)",
+        "line": "2호선",
+        "latitude": 37.493243,
+        "longitude": 126.894932,
+        "district": "구로구"
+    },
+    {
+        "id": 234,
+        "name": "신도림",
+        "line": "2호선",
+        "latitude": 37.508961,
+        "longitude": 126.891084,
+        "district": "구로구"
+    },
+    {
+        "id": 235,
+        "name": "문래",
+        "line": "2호선",
+        "latitude": 37.517933,
+        "longitude": 126.89476,
+        "district": "영등포구"
+    },
+    {
+        "id": 236,
+        "name": "영등포구청",
+        "line": "2호선",
+        "latitude": 37.525706,
+        "longitude": 126.89661,
+        "district": "영등포구"
+    },
+    {
+        "id": 237,
+        "name": "당산",
+        "line": "2호선",
+        "latitude": 37.534946,
+        "longitude": 126.902767,
+        "district": "영등포구"
+    },
+    {
+        "id": 238,
+        "name": "합정",
+        "line": "2호선",
+        "latitude": 37.549457,
+        "longitude": 126.913808,
+        "district": "마포구"
+    },
+    {
+        "id": 239,
+        "name": "홍대입구",
+        "line": "2호선",
+        "latitude": 37.55679,
+        "longitude": 126.923708,
+        "district": "마포구"
+    },
+    {
+        "id": 240,
+        "name": "신촌",
+        "line": "2호선",
+        "latitude": 37.555131,
+        "longitude": 126.936926,
+        "district": "서대문구"
+    },
+    {
+        "id": 241,
+        "name": "이대",
+        "line": "2호선",
+        "latitude": 37.556733,
+        "longitude": 126.946013,
+        "district": "마포구"
+    },
+    {
+        "id": 242,
+        "name": "아현",
+        "line": "2호선",
+        "latitude": 37.557345,
+        "longitude": 126.956141,
+        "district": "마포구"
+    },
+    {
+        "id": 243,
+        "name": "충정로(경기대입구)",
+        "line": "2호선",
+        "latitude": 37.559704,
+        "longitude": 126.964378,
+        "district": "서대문구"
+    },
+    {
+        "id": 244,
+        "name": "용답",
+        "line": "2호선",
+        "latitude": 37.561904,
+        "longitude": 127.050899,
+        "district": "성동구"
+    },
+    {
+        "id": 245,
+        "name": "신답",
+        "line": "2호선",
+        "latitude": 37.57004,
+        "longitude": 127.046481,
+        "district": "성동구"
+    },
+    {
+        "id": 246,
+        "name": "신설동",
+        "line": "2호선",
+        "latitude": 37.574747,
+        "longitude": 127.024932,
+        "district": "동대문구"
+    },
+    {
+        "id": 247,
+        "name": "도림천",
+        "line": "2호선",
+        "latitude": 37.514287,
+        "longitude": 126.882768,
+        "district": "구로구"
+    },
+    {
+        "id": 248,
+        "name": "양천구청",
+        "line": "2호선",
+        "latitude": 37.512398,
+        "longitude": 126.865819,
+        "district": "양천구"
+    },
+    {
+        "id": 249,
+        "name": "신정네거리",
+        "line": "2호선",
+        "latitude": 37.520074,
+        "longitude": 126.852912,
+        "district": "양천구"
+    },
+    {
+        "id": 250,
+        "name": "용두(동대문구청)",
+        "line": "2호선",
+        "latitude": 37.574028,
+        "longitude": 127.038091,
+        "district": "동대문구"
+    },
+    {
+        "id": 251,
+        "name": "까치산",
+        "line": "2호선",
+        "latitude": 37.531768,
+        "longitude": 126.846683,
+        "district": "강서구"
+    },
+    {
+        "id": 310,
+        "name": "구파발",
+        "line": "3호선",
+        "latitude": 37.636763,
+        "longitude": 126.918821,
+        "district": "은평구"
+    },
+    {
+        "id": 311,
+        "name": "연신내",
+        "line": "3호선",
+        "latitude": 37.619229,
+        "longitude": 126.921038,
+        "district": "은평구"
+    },
+    {
+        "id": 312,
+        "name": "불광",
+        "line": "3호선",
+        "latitude": 37.610553,
+        "longitude": 126.92982,
+        "district": "은평구"
+    },
+    {
+        "id": 313,
+        "name": "녹번",
+        "line": "3호선",
+        "latitude": 37.600927,
+        "longitude": 126.935756,
+        "district": "은평구"
+    },
+    {
+        "id": 314,
+        "name": "홍제",
+        "line": "3호선",
+        "latitude": 37.589066,
+        "longitude": 126.943736,
+        "district": "서대문구"
+    },
+    {
+        "id": 315,
+        "name": "무악재",
+        "line": "3호선",
+        "latitude": 37.582299,
+        "longitude": 126.950291,
+        "district": "서대문구"
+    },
+    {
+        "id": 316,
+        "name": "독립문",
+        "line": "3호선",
+        "latitude": 37.574571,
+        "longitude": 126.957748,
+        "district": "서대문구"
+    },
+    {
+        "id": 317,
+        "name": "경복궁(정부서울청사)",
+        "line": "3호선",
+        "latitude": 37.575762,
+        "longitude": 126.97353,
+        "district": "종로구"
+    },
+    {
+        "id": 318,
+        "name": "안국",
+        "line": "3호선",
+        "latitude": 37.576477,
+        "longitude": 126.985443,
+        "district": "종로구"
+    },
+    {
+        "id": 319,
+        "name": "종로3가",
+        "line": "3호선",
+        "latitude": 37.571605,
+        "longitude": 126.991791,
+        "district": "종로구"
+    },
+    {
+        "id": 320,
+        "name": "을지로3가",
+        "line": "3호선",
+        "latitude": 37.566672,
+        "longitude": 126.992548,
+        "district": "중구"
+    },
+    {
+        "id": 321,
+        "name": "충무로",
+        "line": "3호선",
+        "latitude": 37.56143,
+        "longitude": 126.994072,
+        "district": "중구"
+    },
+    {
+        "id": 322,
+        "name": "동대입구",
+        "line": "3호선",
+        "latitude": 37.559052,
+        "longitude": 127.005602,
+        "district": "중구"
+    },
+    {
+        "id": 323,
+        "name": "약수",
+        "line": "3호선",
+        "latitude": 37.554867,
+        "longitude": 127.010541,
+        "district": "중구"
+    },
+    {
+        "id": 324,
+        "name": "금호",
+        "line": "3호선",
+        "latitude": 37.548034,
+        "longitude": 127.015872,
+        "district": "성동구"
+    },
+    {
+        "id": 325,
+        "name": "옥수",
+        "line": "3호선",
+        "latitude": 37.541684,
+        "longitude": 127.017269,
+        "district": "성동구"
+    },
+    {
+        "id": 326,
+        "name": "압구정",
+        "line": "3호선",
+        "latitude": 37.527072,
+        "longitude": 127.028461,
+        "district": "강남구"
+    },
+    {
+        "id": 327,
+        "name": "신사",
+        "line": "3호선",
+        "latitude": 37.516334,
+        "longitude": 127.020114,
+        "district": "강남구"
+    },
+    {
+        "id": 328,
+        "name": "잠원",
+        "line": "3호선",
+        "latitude": 37.512759,
+        "longitude": 127.01122,
+        "district": "서초구"
+    },
+    {
+        "id": 329,
+        "name": "고속터미널",
+        "line": "3호선",
+        "latitude": 37.504891,
+        "longitude": 127.004916,
+        "district": "서초구"
+    },
+    {
+        "id": 330,
+        "name": "교대(법원.검찰청)",
+        "line": "3호선",
+        "latitude": 37.493025,
+        "longitude": 127.013786,
+        "district": "서초구"
+    },
+    {
+        "id": 331,
+        "name": "남부터미널(예술의전당)",
+        "line": "3호선",
+        "latitude": 37.485013,
+        "longitude": 127.016189,
+        "district": "서초구"
+    },
+    {
+        "id": 332,
+        "name": "양재(서초구청)",
+        "line": "3호선",
+        "latitude": 37.484477,
+        "longitude": 127.033902,
+        "district": "서초구"
+    },
+    {
+        "id": 333,
+        "name": "매봉",
+        "line": "3호선",
+        "latitude": 37.486947,
+        "longitude": 127.046769,
+        "district": "강남구"
+    },
+    {
+        "id": 334,
+        "name": "도곡",
+        "line": "3호선",
+        "latitude": 37.490922,
+        "longitude": 127.055452,
+        "district": "강남구"
+    },
+    {
+        "id": 335,
+        "name": "대치",
+        "line": "3호선",
+        "latitude": 37.494612,
+        "longitude": 127.063642,
+        "district": "강남구"
+    },
+    {
+        "id": 336,
+        "name": "학여울",
+        "line": "3호선",
+        "latitude": 37.496663,
+        "longitude": 127.070594,
+        "district": "강남구"
+    },
+    {
+        "id": 337,
+        "name": "대청",
+        "line": "3호선",
+        "latitude": 37.493514,
+        "longitude": 127.079532,
+        "district": "강남구"
+    },
+    {
+        "id": 338,
+        "name": "일원",
+        "line": "3호선",
+        "latitude": 37.483681,
+        "longitude": 127.08439,
+        "district": "강남구"
+    },
+    {
+        "id": 339,
+        "name": "수서",
+        "line": "3호선",
+        "latitude": 37.487378,
+        "longitude": 127.101907,
+        "district": "강남구"
+    },
+    {
+        "id": 340,
+        "name": "가락시장",
+        "line": "3호선",
+        "latitude": 37.492245,
+        "longitude": 127.117757,
+        "district": "송파구"
+    },
+    {
+        "id": 341,
+        "name": "경찰병원",
+        "line": "3호선",
+        "latitude": 37.495918,
+        "longitude": 127.12454,
+        "district": "송파구"
+    },
+    {
+        "id": 342,
+        "name": "오금",
+        "line": "3호선",
+        "latitude": 37.502129,
+        "longitude": 127.128319,
+        "district": "송파구"
+    },
+    {
+        "id": 409,
+        "name": "당고개",
+        "line": "4호선",
+        "latitude": 37.670272,
+        "longitude": 127.079066,
+        "district": "노원구"
+    },
+    {
+        "id": 410,
+        "name": "상계",
+        "line": "4호선",
+        "latitude": 37.660878,
+        "longitude": 127.073572,
+        "district": "노원구"
+    },
+    {
+        "id": 411,
+        "name": "노원",
+        "line": "4호선",
+        "latitude": 37.65627,
+        "longitude": 127.063276,
+        "district": "노원구"
+    },
+    {
+        "id": 412,
+        "name": "창동",
+        "line": "4호선",
+        "latitude": 37.653088,
+        "longitude": 127.047274,
+        "district": "도봉구"
+    },
+    {
+        "id": 413,
+        "name": "쌍문",
+        "line": "4호선",
+        "latitude": 37.648627,
+        "longitude": 127.034709,
+        "district": "도봉구"
+    },
+    {
+        "id": 414,
+        "name": "수유(강북구청)",
+        "line": "4호선",
+        "latitude": 37.638052,
+        "longitude": 127.025732,
+        "district": "강북구"
+    },
+    {
+        "id": 415,
+        "name": "미아(서울사이버대학)",
+        "line": "4호선",
+        "latitude": 37.62667,
+        "longitude": 127.025983,
+        "district": "강북구"
+    },
+    {
+        "id": 416,
+        "name": "미아사거리",
+        "line": "4호선",
+        "latitude": 37.613292,
+        "longitude": 127.030053,
+        "district": "강북구"
+    },
+    {
+        "id": 417,
+        "name": "길음",
+        "line": "4호선",
+        "latitude": 37.603407,
+        "longitude": 127.025053,
+        "district": "성북구"
+    },
+    {
+        "id": 418,
+        "name": "성신여대입구(돈암)",
+        "line": "4호선",
+        "latitude": 37.592612,
+        "longitude": 127.016441,
+        "district": "성북구"
+    },
+    {
+        "id": 419,
+        "name": "한성대입구(삼선교)",
+        "line": "4호선",
+        "latitude": 37.588458,
+        "longitude": 127.006221,
+        "district": "성북구"
+    },
+    {
+        "id": 420,
+        "name": "혜화",
+        "line": "4호선",
+        "latitude": 37.582336,
+        "longitude": 127.001844,
+        "district": "종로구"
+    },
+    {
+        "id": 421,
+        "name": "동대문",
+        "line": "4호선",
+        "latitude": 37.57093,
+        "longitude": 127.009287,
+        "district": "종로구"
+    },
+    {
+        "id": 422,
+        "name": "동대문역사문화공원",
+        "line": "4호선",
+        "latitude": 37.565133,
+        "longitude": 127.007885,
+        "district": "중구"
+    },
+    {
+        "id": 423,
+        "name": "충무로",
+        "line": "4호선",
+        "latitude": 37.561207,
+        "longitude": 126.99408,
+        "district": "중구"
+    },
+    {
+        "id": 424,
+        "name": "명동",
+        "line": "4호선",
+        "latitude": 37.560989,
+        "longitude": 126.986325,
+        "district": "중구"
+    },
+    {
+        "id": 425,
+        "name": "회현(남대문시장)",
+        "line": "4호선",
+        "latitude": 37.558514,
+        "longitude": 126.978246,
+        "district": "중구"
+    },
+    {
+        "id": 426,
+        "name": "서울역",
+        "line": "4호선",
+        "latitude": 37.55281,
+        "longitude": 126.972556,
+        "district": "용산구"
+    },
+    {
+        "id": 427,
+        "name": "숙대입구(갈월)",
+        "line": "4호선",
+        "latitude": 37.54456,
+        "longitude": 126.972106,
+        "district": "용산구"
+    },
+    {
+        "id": 428,
+        "name": "삼각지",
+        "line": "4호선",
+        "latitude": 37.534075,
+        "longitude": 126.9726,
+        "district": "용산구"
+    },
+    {
+        "id": 429,
+        "name": "신용산",
+        "line": "4호선",
+        "latitude": 37.52917,
+        "longitude": 126.967894,
+        "district": "용산구"
+    },
+    {
+        "id": 430,
+        "name": "이촌(국립중앙박물관)",
+        "line": "4호선",
+        "latitude": 37.522295,
+        "longitude": 126.974733,
+        "district": "용산구"
+    },
+    {
+        "id": 431,
+        "name": "동작(현충원)",
+        "line": "4호선",
+        "latitude": 37.502852,
+        "longitude": 126.980347,
+        "district": "동작구"
+    },
+    {
+        "id": 432,
+        "name": "총신대입구(이수)",
+        "line": "4호선",
+        "latitude": 37.486263,
+        "longitude": 126.981989,
+        "district": "동작구"
+    },
+    {
+        "id": 433,
+        "name": "사당",
+        "line": "4호선",
+        "latitude": 37.476955,
+        "longitude": 126.981651,
+        "district": "동작구"
+    },
+    {
+        "id": 434,
+        "name": "남태령",
+        "line": "4호선",
+        "latitude": 37.463873,
+        "longitude": 126.989134,
+        "district": "서초구"
+    },
+    {
+        "id": 2511,
+        "name": "방화",
+        "line": "5호선",
+        "latitude": 37.577446,
+        "longitude": 126.812741,
+        "district": "강서구"
+    },
+    {
+        "id": 2512,
+        "name": "개화산",
+        "line": "5호선",
+        "latitude": 37.572399,
+        "longitude": 126.806171,
+        "district": "강서구"
+    },
+    {
+        "id": 2513,
+        "name": "김포공항",
+        "line": "5호선",
+        "latitude": 37.562384,
+        "longitude": 126.801292,
+        "district": "강서구"
+    },
+    {
+        "id": 2514,
+        "name": "송정",
+        "line": "5호선",
+        "latitude": 37.561184,
+        "longitude": 126.811973,
+        "district": "강서구"
+    },
+    {
+        "id": 2515,
+        "name": "마곡",
+        "line": "5호선",
+        "latitude": 37.560183,
+        "longitude": 126.825448,
+        "district": "강서구"
+    },
+    {
+        "id": 2516,
+        "name": "발산",
+        "line": "5호선",
+        "latitude": 37.558598,
+        "longitude": 126.837668,
+        "district": "강서구"
+    },
+    {
+        "id": 2517,
+        "name": "우장산",
+        "line": "5호선",
+        "latitude": 37.548768,
+        "longitude": 126.836318,
+        "district": "강서구"
+    },
+    {
+        "id": 2518,
+        "name": "화곡",
+        "line": "5호선",
+        "latitude": 37.541513,
+        "longitude": 126.840461,
+        "district": "강서구"
+    },
+    {
+        "id": 2519,
+        "name": "까치산",
+        "line": "5호선",
+        "latitude": 37.531768,
+        "longitude": 126.846683,
+        "district": "강서구"
+    },
+    {
+        "id": 2520,
+        "name": "신정(은행정)",
+        "line": "5호선",
+        "latitude": 37.524997,
+        "longitude": 126.856191,
+        "district": "양천구"
+    },
+    {
+        "id": 2521,
+        "name": "목동",
+        "line": "5호선",
+        "latitude": 37.526065,
+        "longitude": 126.864931,
+        "district": "양천구"
+    },
+    {
+        "id": 2522,
+        "name": "오목교(목동운동장앞)",
+        "line": "5호선",
+        "latitude": 37.524496,
+        "longitude": 126.875181,
+        "district": "양천구"
+    },
+    {
+        "id": 2523,
+        "name": "양평",
+        "line": "5호선",
+        "latitude": 37.525569,
+        "longitude": 126.886129,
+        "district": "영등포구"
+    },
+    {
+        "id": 2524,
+        "name": "영등포구청",
+        "line": "5호선",
+        "latitude": 37.5242,
+        "longitude": 126.89503,
+        "district": "영등포구"
+    },
+    {
+        "id": 2525,
+        "name": "영등포시장",
+        "line": "5호선",
+        "latitude": 37.522669,
+        "longitude": 126.905139,
+        "district": "영등포구"
+    },
+    {
+        "id": 2526,
+        "name": "신길",
+        "line": "5호선",
+        "latitude": 37.517623,
+        "longitude": 126.914839,
+        "district": "영등포구"
+    },
+    {
+        "id": 2527,
+        "name": "여의도",
+        "line": "5호선",
+        "latitude": 37.521747,
+        "longitude": 126.924357,
+        "district": "영등포구"
+    },
+    {
+        "id": 2528,
+        "name": "여의나루",
+        "line": "5호선",
+        "latitude": 37.527098,
+        "longitude": 126.932901,
+        "district": "영등포구"
+    },
+    {
+        "id": 2529,
+        "name": "마포",
+        "line": "5호선",
+        "latitude": 37.539574,
+        "longitude": 126.945932,
+        "district": "마포구"
+    },
+    {
+        "id": 2530,
+        "name": "공덕",
+        "line": "5호선",
+        "latitude": 37.544431,
+        "longitude": 126.951372,
+        "district": "마포구"
+    },
+    {
+        "id": 2531,
+        "name": "애오개",
+        "line": "5호선",
+        "latitude": 37.553736,
+        "longitude": 126.95682,
+        "district": "마포구"
+    },
+    {
+        "id": 2532,
+        "name": "충정로(경기대입구)",
+        "line": "5호선",
+        "latitude": 37.560236,
+        "longitude": 126.9629,
+        "district": "서대문구"
+    },
+    {
+        "id": 2533,
+        "name": "서대문",
+        "line": "5호선",
+        "latitude": 37.565773,
+        "longitude": 126.966641,
+        "district": "서대문구"
+    },
+    {
+        "id": 2534,
+        "name": "광화문(세종문화회관)",
+        "line": "5호선",
+        "latitude": 37.571525,
+        "longitude": 126.97717,
+        "district": "종로구"
+    },
+    {
+        "id": 2535,
+        "name": "종로3가",
+        "line": "5호선",
+        "latitude": 37.57254,
+        "longitude": 126.990305,
+        "district": "종로구"
+    },
+    {
+        "id": 2536,
+        "name": "을지로4가",
+        "line": "5호선",
+        "latitude": 37.567352,
+        "longitude": 126.998032,
+        "district": "중구"
+    },
+    {
+        "id": 2537,
+        "name": "동대문역사문화공원",
+        "line": "5호선",
+        "latitude": 37.564665,
+        "longitude": 127.005353,
+        "district": "중구"
+    },
+    {
+        "id": 2538,
+        "name": "청구",
+        "line": "5호선",
+        "latitude": 37.560276,
+        "longitude": 127.013639,
+        "district": "중구"
+    },
+    {
+        "id": 2539,
+        "name": "신금호",
+        "line": "5호선",
+        "latitude": 37.554548,
+        "longitude": 127.020331,
+        "district": "성동구"
+    },
+    {
+        "id": 2540,
+        "name": "행당",
+        "line": "5호선",
+        "latitude": 37.557322,
+        "longitude": 127.029476,
+        "district": "성동구"
+    },
+    {
+        "id": 2541,
+        "name": "왕십리(성동구청)",
+        "line": "5호선",
+        "latitude": 37.56184,
+        "longitude": 127.037059,
+        "district": "성동구"
+    },
+    {
+        "id": 2542,
+        "name": "마장",
+        "line": "5호선",
+        "latitude": 37.5661,
+        "longitude": 127.042973,
+        "district": "성동구"
+    },
+    {
+        "id": 2543,
+        "name": "답십리",
+        "line": "5호선",
+        "latitude": 37.566747,
+        "longitude": 127.052704,
+        "district": "성동구"
+    },
+    {
+        "id": 2544,
+        "name": "장한평",
+        "line": "5호선",
+        "latitude": 37.56144,
+        "longitude": 127.064623,
+        "district": "성동구"
+    },
+    {
+        "id": 2545,
+        "name": "군자(능동)",
+        "line": "5호선",
+        "latitude": 37.557088,
+        "longitude": 127.079577,
+        "district": "광진구"
+    },
+    {
+        "id": 2546,
+        "name": "아차산(어린이대공원후문)",
+        "line": "5호선",
+        "latitude": 37.551691,
+        "longitude": 127.089761,
+        "district": "광진구"
+    },
+    {
+        "id": 2547,
+        "name": "광나루(장신대)",
+        "line": "5호선",
+        "latitude": 37.545303,
+        "longitude": 127.10357,
+        "district": "광진구"
+    },
+    {
+        "id": 2548,
+        "name": "천호(풍납토성)",
+        "line": "5호선",
+        "latitude": 37.53864,
+        "longitude": 127.123308,
+        "district": "송파구"
+    },
+    {
+        "id": 2549,
+        "name": "강동",
+        "line": "5호선",
+        "latitude": 37.535804,
+        "longitude": 127.132481,
+        "district": "강동구"
+    },
+    {
+        "id": 2550,
+        "name": "길동",
+        "line": "5호선",
+        "latitude": 37.537801,
+        "longitude": 127.140004,
+        "district": "강동구"
+    },
+    {
+        "id": 2551,
+        "name": "굽은다리(강동구민회관앞)",
+        "line": "5호선",
+        "latitude": 37.545477,
+        "longitude": 127.142853,
+        "district": "강동구"
+    },
+    {
+        "id": 2552,
+        "name": "명일",
+        "line": "5호선",
+        "latitude": 37.55137,
+        "longitude": 127.143999,
+        "district": "강동구"
+    },
+    {
+        "id": 2553,
+        "name": "고덕",
+        "line": "5호선",
+        "latitude": 37.555004,
+        "longitude": 127.154151,
+        "district": "강동구"
+    },
+    {
+        "id": 2554,
+        "name": "상일동",
+        "line": "5호선",
+        "latitude": 37.556712,
+        "longitude": 127.166417,
+        "district": "강동구"
+    },
+    {
+        "id": 2555,
+        "name": "둔촌동",
+        "line": "5호선",
+        "latitude": 37.527788,
+        "longitude": 127.136248,
+        "district": "강동구"
+    },
+    {
+        "id": 2556,
+        "name": "올림픽공원(한국체대)",
+        "line": "5호선",
+        "latitude": 37.516201,
+        "longitude": 127.130923,
+        "district": "송파구"
+    },
+    {
+        "id": 2557,
+        "name": "방이",
+        "line": "5호선",
+        "latitude": 37.508857,
+        "longitude": 127.126133,
+        "district": "송파구"
+    },
+    {
+        "id": 2558,
+        "name": "오금",
+        "line": "5호선",
+        "latitude": 37.502057,
+        "longitude": 127.127938,
+        "district": "송파구"
+    },
+    {
+        "id": 2559,
+        "name": "개롱",
+        "line": "5호선",
+        "latitude": 37.498079,
+        "longitude": 127.13482,
+        "district": "송파구"
+    },
+    {
+        "id": 2560,
+        "name": "거여",
+        "line": "5호선",
+        "latitude": 37.493105,
+        "longitude": 127.14415,
+        "district": "송파구"
+    },
+    {
+        "id": 2561,
+        "name": "마천",
+        "line": "5호선",
+        "latitude": 37.49499,
+        "longitude": 127.152781,
+        "district": "송파구"
+    },
+    {
+        "id": 2562,
+        "name": "강일",
+        "line": "5호선",
+        "latitude": 37.55749,
+        "longitude": 127.17593,
+        "district": "강동구"
+    },
+    {
+        "id": 2611,
+        "name": "응암",
+        "line": "6호선",
+        "latitude": 37.598605,
+        "longitude": 126.915577,
+        "district": "은평구"
+    },
+    {
+        "id": 2612,
+        "name": "역촌",
+        "line": "6호선",
+        "latitude": 37.606021,
+        "longitude": 126.922744,
+        "district": "은평구"
+    },
+    {
+        "id": 2613,
+        "name": "불광",
+        "line": "6호선",
+        "latitude": 37.610873,
+        "longitude": 126.92939,
+        "district": "은평구"
+    },
+    {
+        "id": 2614,
+        "name": "독바위",
+        "line": "6호선",
+        "latitude": 37.618456,
+        "longitude": 126.933031,
+        "district": "은평구"
+    },
+    {
+        "id": 2615,
+        "name": "연신내",
+        "line": "6호선",
+        "latitude": 37.618636,
+        "longitude": 126.920625,
+        "district": "은평구"
+    },
+    {
+        "id": 2616,
+        "name": "구산",
+        "line": "6호선",
+        "latitude": 37.611377,
+        "longitude": 126.91727,
+        "district": "은평구"
+    },
+    {
+        "id": 2617,
+        "name": "새절(신사)",
+        "line": "6호선",
+        "latitude": 37.591148,
+        "longitude": 126.913629,
+        "district": "은평구"
+    },
+    {
+        "id": 2618,
+        "name": "증산(명지대앞)",
+        "line": "6호선",
+        "latitude": 37.583876,
+        "longitude": 126.909645,
+        "district": "은평구"
+    },
+    {
+        "id": 2619,
+        "name": "디지털미디어시티",
+        "line": "6호선",
+        "latitude": 37.576108,
+        "longitude": 126.901391,
+        "district": "마포구"
+    },
+    {
+        "id": 2620,
+        "name": "월드컵경기장(성산)",
+        "line": "6호선",
+        "latitude": 37.569532,
+        "longitude": 126.899298,
+        "district": "마포구"
+    },
+    {
+        "id": 2621,
+        "name": "마포구청",
+        "line": "6호선",
+        "latitude": 37.563515,
+        "longitude": 126.903343,
+        "district": "마포구"
+    },
+    {
+        "id": 2622,
+        "name": "망원",
+        "line": "6호선",
+        "latitude": 37.556094,
+        "longitude": 126.910052,
+        "district": "마포구"
+    },
+    {
+        "id": 2623,
+        "name": "합정",
+        "line": "6호선",
+        "latitude": 37.549209,
+        "longitude": 126.913366,
+        "district": "마포구"
+    },
+    {
+        "id": 2624,
+        "name": "상수",
+        "line": "6호선",
+        "latitude": 37.547716,
+        "longitude": 126.922852,
+        "district": "마포구"
+    },
+    {
+        "id": 2625,
+        "name": "광흥창(서강)",
+        "line": "6호선",
+        "latitude": 37.547456,
+        "longitude": 126.931993,
+        "district": "마포구"
+    },
+    {
+        "id": 2626,
+        "name": "대흥(서강대앞)",
+        "line": "6호선",
+        "latitude": 37.547771,
+        "longitude": 126.942069,
+        "district": "마포구"
+    },
+    {
+        "id": 2627,
+        "name": "공덕",
+        "line": "6호선",
+        "latitude": 37.543555,
+        "longitude": 126.951678,
+        "district": "마포구"
+    },
+    {
+        "id": 2628,
+        "name": "효창공원앞",
+        "line": "6호선",
+        "latitude": 37.539233,
+        "longitude": 126.961384,
+        "district": "용산구"
+    },
+    {
+        "id": 2629,
+        "name": "삼각지",
+        "line": "6호선",
+        "latitude": 37.535534,
+        "longitude": 126.974032,
+        "district": "용산구"
+    },
+    {
+        "id": 2630,
+        "name": "녹사평(용산구청)",
+        "line": "6호선",
+        "latitude": 37.534675,
+        "longitude": 126.986695,
+        "district": "용산구"
+    },
+    {
+        "id": 2631,
+        "name": "이태원",
+        "line": "6호선",
+        "latitude": 37.534488,
+        "longitude": 126.994302,
+        "district": "용산구"
+    },
+    {
+        "id": 2632,
+        "name": "한강진",
+        "line": "6호선",
+        "latitude": 37.539631,
+        "longitude": 127.001725,
+        "district": "용산구"
+    },
+    {
+        "id": 2633,
+        "name": "버티고개",
+        "line": "6호선",
+        "latitude": 37.548013,
+        "longitude": 127.007055,
+        "district": "중구"
+    },
+    {
+        "id": 2634,
+        "name": "약수",
+        "line": "6호선",
+        "latitude": 37.554263,
+        "longitude": 127.010358,
+        "district": "중구"
+    },
+    {
+        "id": 2635,
+        "name": "청구",
+        "line": "6호선",
+        "latitude": 37.560608,
+        "longitude": 127.013986,
+        "district": "중구"
+    },
+    {
+        "id": 2636,
+        "name": "신당",
+        "line": "6호선",
+        "latitude": 37.566154,
+        "longitude": 127.016146,
+        "district": "중구"
+    },
+    {
+        "id": 2637,
+        "name": "동묘앞",
+        "line": "6호선",
+        "latitude": 37.572279,
+        "longitude": 127.015653,
+        "district": "종로구"
+    },
+    {
+        "id": 2638,
+        "name": "창신",
+        "line": "6호선",
+        "latitude": 37.579661,
+        "longitude": 127.015241,
+        "district": "종로구"
+    },
+    {
+        "id": 2639,
+        "name": "보문",
+        "line": "6호선",
+        "latitude": 37.585274,
+        "longitude": 127.019351,
+        "district": "성북구"
+    },
+    {
+        "id": 2640,
+        "name": "안암(고대병원앞)",
+        "line": "6호선",
+        "latitude": 37.586272,
+        "longitude": 127.029005,
+        "district": "성북구"
+    },
+    {
+        "id": 2641,
+        "name": "고려대(종암)",
+        "line": "6호선",
+        "latitude": 37.590508,
+        "longitude": 127.036296,
+        "district": "성북구"
+    },
+    {
+        "id": 2642,
+        "name": "월곡(동덕여대)",
+        "line": "6호선",
+        "latitude": 37.601948,
+        "longitude": 127.041518,
+        "district": "성북구"
+    },
+    {
+        "id": 2643,
+        "name": "상월곡(한국과학기술연구원)",
+        "line": "6호선",
+        "latitude": 37.606377,
+        "longitude": 127.048491,
+        "district": "성북구"
+    },
+    {
+        "id": 2644,
+        "name": "돌곶이",
+        "line": "6호선",
+        "latitude": 37.610537,
+        "longitude": 127.056431,
+        "district": "성북구"
+    },
+    {
+        "id": 2645,
+        "name": "석계",
+        "line": "6호선",
+        "latitude": 37.614872,
+        "longitude": 127.065595,
+        "district": "성북구"
+    },
+    {
+        "id": 2646,
+        "name": "태릉입구",
+        "line": "6호선",
+        "latitude": 37.617338,
+        "longitude": 127.074735,
+        "district": "노원구"
+    },
+    {
+        "id": 2647,
+        "name": "화랑대(서울여대입구)",
+        "line": "6호선",
+        "latitude": 37.620064,
+        "longitude": 127.084689,
+        "district": "중랑구"
+    },
+    {
+        "id": 2648,
+        "name": "봉화산(서울의료원)",
+        "line": "6호선",
+        "latitude": 37.617283,
+        "longitude": 127.091401,
+        "district": "중랑구"
+    },
+    {
+        "id": 2649,
+        "name": "신내",
+        "line": "6호선",
+        "latitude": 37.613174,
+        "longitude": 127.102231,
+        "district": "중랑구"
+    },
+    {
+        "id": 2712,
+        "name": "도봉산",
+        "line": "7호선",
+        "latitude": 37.689241,
+        "longitude": 127.046509,
+        "district": "도봉구"
+    },
+    {
+        "id": 2713,
+        "name": "수락산",
+        "line": "7호선",
+        "latitude": 37.67785,
+        "longitude": 127.055315,
+        "district": "노원구"
+    },
+    {
+        "id": 2714,
+        "name": "마들",
+        "line": "7호선",
+        "latitude": 37.66494,
+        "longitude": 127.057675,
+        "district": "노원구"
+    },
+    {
+        "id": 2715,
+        "name": "노원",
+        "line": "7호선",
+        "latitude": 37.654836,
+        "longitude": 127.060462,
+        "district": "노원구"
+    },
+    {
+        "id": 2716,
+        "name": "중계",
+        "line": "7호선",
+        "latitude": 37.644583,
+        "longitude": 127.064303,
+        "district": "노원구"
+    },
+    {
+        "id": 2717,
+        "name": "하계",
+        "line": "7호선",
+        "latitude": 37.636352,
+        "longitude": 127.06799,
+        "district": "노원구"
+    },
+    {
+        "id": 2718,
+        "name": "공릉(서울과학기술대)",
+        "line": "7호선",
+        "latitude": 37.625742,
+        "longitude": 127.072896,
+        "district": "노원구"
+    },
+    {
+        "id": 2719,
+        "name": "태릉입구",
+        "line": "7호선",
+        "latitude": 37.618294,
+        "longitude": 127.075397,
+        "district": "노원구"
+    },
+    {
+        "id": 2720,
+        "name": "먹골",
+        "line": "7호선",
+        "latitude": 37.610637,
+        "longitude": 127.077725,
+        "district": "중랑구"
+    },
+    {
+        "id": 2721,
+        "name": "중화",
+        "line": "7호선",
+        "latitude": 37.602545,
+        "longitude": 127.079264,
+        "district": "중랑구"
+    },
+    {
+        "id": 2722,
+        "name": "상봉(시외버스터미널)",
+        "line": "7호선",
+        "latitude": 37.595577,
+        "longitude": 127.085716,
+        "district": "중랑구"
+    },
+    {
+        "id": 2723,
+        "name": "면목",
+        "line": "7호선",
+        "latitude": 37.588579,
+        "longitude": 127.087503,
+        "district": "중랑구"
+    },
+    {
+        "id": 2724,
+        "name": "사가정",
+        "line": "7호선",
+        "latitude": 37.580894,
+        "longitude": 127.088478,
+        "district": "중랑구"
+    },
+    {
+        "id": 2725,
+        "name": "용마산",
+        "line": "7호선",
+        "latitude": 37.573647,
+        "longitude": 127.086727,
+        "district": "중랑구"
+    },
+    {
+        "id": 2726,
+        "name": "중곡",
+        "line": "7호선",
+        "latitude": 37.565923,
+        "longitude": 127.08432,
+        "district": "광진구"
+    },
+    {
+        "id": 2727,
+        "name": "군자(능동)",
+        "line": "7호선",
+        "latitude": 37.556897,
+        "longitude": 127.079338,
+        "district": "광진구"
+    },
+    {
+        "id": 2728,
+        "name": "어린이대공원(세종대)",
+        "line": "7호선",
+        "latitude": 37.548014,
+        "longitude": 127.074658,
+        "district": "광진구"
+    },
+    {
+        "id": 2729,
+        "name": "건대입구",
+        "line": "7호선",
+        "latitude": 37.540786,
+        "longitude": 127.071011,
+        "district": "광진구"
+    },
+    {
+        "id": 2730,
+        "name": "뚝섬유원지",
+        "line": "7호선",
+        "latitude": 37.53154,
+        "longitude": 127.066704,
+        "district": "광진구"
+    },
+    {
+        "id": 2731,
+        "name": "청담",
+        "line": "7호선",
+        "latitude": 37.519365,
+        "longitude": 127.05335,
+        "district": "강남구"
+    },
+    {
+        "id": 2732,
+        "name": "강남구청",
+        "line": "7호선",
+        "latitude": 37.517179,
+        "longitude": 127.041255,
+        "district": "강남구"
+    },
+    {
+        "id": 2733,
+        "name": "학동",
+        "line": "7호선",
+        "latitude": 37.514229,
+        "longitude": 127.031656,
+        "district": "강남구"
+    },
+    {
+        "id": 2734,
+        "name": "논현",
+        "line": "7호선",
+        "latitude": 37.511093,
+        "longitude": 127.021415,
+        "district": "강남구"
+    },
+    {
+        "id": 2735,
+        "name": "반포",
+        "line": "7호선",
+        "latitude": 37.508178,
+        "longitude": 127.011727,
+        "district": "서초구"
+    },
+    {
+        "id": 2736,
+        "name": "고속터미널",
+        "line": "7호선",
+        "latitude": 37.503367,
+        "longitude": 127.005068,
+        "district": "서초구"
+    },
+    {
+        "id": 2737,
+        "name": "내방",
+        "line": "7호선",
+        "latitude": 37.487618,
+        "longitude": 126.993513,
+        "district": "서초구"
+    },
+    {
+        "id": 2738,
+        "name": "이수",
+        "line": "7호선",
+        "latitude": 37.485196,
+        "longitude": 126.981605,
+        "district": "동작구"
+    },
+    {
+        "id": 2739,
+        "name": "남성",
+        "line": "7호선",
+        "latitude": 37.484596,
+        "longitude": 126.971251,
+        "district": "동작구"
+    },
+    {
+        "id": 2740,
+        "name": "숭실대입구(살피재)",
+        "line": "7호선",
+        "latitude": 37.496029,
+        "longitude": 126.953822,
+        "district": "동작구"
+    },
+    {
+        "id": 2741,
+        "name": "상도",
+        "line": "7호선",
+        "latitude": 37.502834,
+        "longitude": 126.94791,
+        "district": "동작구"
+    },
+    {
+        "id": 2742,
+        "name": "장승배기",
+        "line": "7호선",
+        "latitude": 37.504898,
+        "longitude": 126.93915,
+        "district": "동작구"
+    },
+    {
+        "id": 2743,
+        "name": "신대방삼거리",
+        "line": "7호선",
+        "latitude": 37.499701,
+        "longitude": 126.928276,
+        "district": "동작구"
+    },
+    {
+        "id": 2744,
+        "name": "보라매",
+        "line": "7호선",
+        "latitude": 37.499872,
+        "longitude": 126.920428,
+        "district": "동작구"
+    },
+    {
+        "id": 2745,
+        "name": "신풍",
+        "line": "7호선",
+        "latitude": 37.50008,
+        "longitude": 126.90993,
+        "district": "영등포구"
+    },
+    {
+        "id": 2746,
+        "name": "대림(구로구청)",
+        "line": "7호선",
+        "latitude": 37.493013,
+        "longitude": 126.897075,
+        "district": "영등포구"
+    },
+    {
+        "id": 2747,
+        "name": "남구로",
+        "line": "7호선",
+        "latitude": 37.486056,
+        "longitude": 126.887249,
+        "district": "구로구"
+    },
+    {
+        "id": 2748,
+        "name": "가산디지털단지",
+        "line": "7호선",
+        "latitude": 37.480338,
+        "longitude": 126.882656,
+        "district": "금천구"
+    },
+    {
+        "id": 2751,
+        "name": "천왕",
+        "line": "7호선",
+        "latitude": 37.486637,
+        "longitude": 126.838713,
+        "district": "구로구"
+    },
+    {
+        "id": 2752,
+        "name": "온수(성공회대입구)",
+        "line": "7호선",
+        "latitude": 37.492092,
+        "longitude": 126.823023,
+        "district": "구로구"
+    },
+    {
+        "id": 2811,
+        "name": "암사",
+        "line": "8호선",
+        "latitude": 37.55021,
+        "longitude": 127.127562,
+        "district": "강동구"
+    },
+    {
+        "id": 2812,
+        "name": "천호(풍납토성)",
+        "line": "8호선",
+        "latitude": 37.538113,
+        "longitude": 127.123254,
+        "district": "강동구"
+    },
+    {
+        "id": 2813,
+        "name": "강동구청",
+        "line": "8호선",
+        "latitude": 37.530341,
+        "longitude": 127.120508,
+        "district": "강동구"
+    },
+    {
+        "id": 2814,
+        "name": "몽촌토성(평화의문)",
+        "line": "8호선",
+        "latitude": 37.517409,
+        "longitude": 127.112359,
+        "district": "송파구"
+    },
+    {
+        "id": 2815,
+        "name": "잠실(송파구청)",
+        "line": "8호선",
+        "latitude": 37.514692,
+        "longitude": 127.104338,
+        "district": "송파구"
+    },
+    {
+        "id": 2816,
+        "name": "석촌",
+        "line": "8호선",
+        "latitude": 37.505557,
+        "longitude": 127.106832,
+        "district": "송파구"
+    },
+    {
+        "id": 2817,
+        "name": "송파",
+        "line": "8호선",
+        "latitude": 37.499703,
+        "longitude": 127.112183,
+        "district": "송파구"
+    },
+    {
+        "id": 2818,
+        "name": "가락시장",
+        "line": "8호선",
+        "latitude": 37.492888,
+        "longitude": 127.118398,
+        "district": "송파구"
+    },
+    {
+        "id": 2819,
+        "name": "문정",
+        "line": "8호선",
+        "latitude": 37.485855,
+        "longitude": 127.1225,
+        "district": "송파구"
+    },
+    {
+        "id": 2820,
+        "name": "장지",
+        "line": "8호선",
+        "latitude": 37.478703,
+        "longitude": 127.126191,
+        "district": "송파구"
+    },
+    {
+        "id": 2821,
+        "name": "복정",
+        "line": "8호선",
+        "latitude": 37.471052,
+        "longitude": 127.126732,
+        "district": "송파구"
+    },
+    {
+        "id": 4101,
+        "name": "개화",
+        "line": "9호선",
+        "latitude": 37.578608,
+        "longitude": 126.798153,
+        "district": "강서구"
+    },
+    {
+        "id": 4102,
+        "name": "김포공항",
+        "line": "9호선",
+        "latitude": 37.561916,
+        "longitude": 126.802152,
+        "district": "강서구"
+    },
+    {
+        "id": 4103,
+        "name": "공항시장",
+        "line": "9호선",
+        "latitude": 37.563726,
+        "longitude": 126.810678,
+        "district": "강서구"
+    },
+    {
+        "id": 4104,
+        "name": "신방화",
+        "line": "9호선",
+        "latitude": 37.567532,
+        "longitude": 126.816601,
+        "district": "강서구"
+    },
+    {
+        "id": 4105,
+        "name": "마곡나루",
+        "line": "9호선",
+        "latitude": 37.566778,
+        "longitude": 126.82731,
+        "district": "강서구"
+    },
+    {
+        "id": 4106,
+        "name": "양천향교",
+        "line": "9호선",
+        "latitude": 37.568381,
+        "longitude": 126.841333,
+        "district": "강서구"
+    },
+    {
+        "id": 4107,
+        "name": "가양",
+        "line": "9호선",
+        "latitude": 37.561391,
+        "longitude": 126.854456,
+        "district": "강서구"
+    },
+    {
+        "id": 4108,
+        "name": "증미",
+        "line": "9호선",
+        "latitude": 37.557402,
+        "longitude": 126.861939,
+        "district": "강서구"
+    },
+    {
+        "id": 4109,
+        "name": "등촌",
+        "line": "9호선",
+        "latitude": 37.550632,
+        "longitude": 126.865689,
+        "district": "양천구"
+    },
+    {
+        "id": 4110,
+        "name": "염창",
+        "line": "9호선",
+        "latitude": 37.546936,
+        "longitude": 126.874916,
+        "district": "양천구"
+    },
+    {
+        "id": 4111,
+        "name": "신목동",
+        "line": "9호선",
+        "latitude": 37.544277,
+        "longitude": 126.88308,
+        "district": "양천구"
+    },
+    {
+        "id": 4112,
+        "name": "선유도",
+        "line": "9호선",
+        "latitude": 37.53802,
+        "longitude": 126.893525,
+        "district": "영등포구"
+    },
+    {
+        "id": 4113,
+        "name": "당산",
+        "line": "9호선",
+        "latitude": 37.533406,
+        "longitude": 126.902809,
+        "district": "영등포구"
+    },
+    {
+        "id": 4114,
+        "name": "국회의사당",
+        "line": "9호선",
+        "latitude": 37.528105,
+        "longitude": 126.917874,
+        "district": "영등포구"
+    },
+    {
+        "id": 4115,
+        "name": "여의도",
+        "line": "9호선",
+        "latitude": 37.52176,
+        "longitude": 126.92403,
+        "district": "영등포구"
+    },
+    {
+        "id": 4116,
+        "name": "샛강",
+        "line": "9호선",
+        "latitude": 37.517274,
+        "longitude": 126.928422,
+        "district": "영등포구"
+    },
+    {
+        "id": 4117,
+        "name": "노량진",
+        "line": "9호선",
+        "latitude": 37.513534,
+        "longitude": 126.941005,
+        "district": "동작구"
+    },
+    {
+        "id": 4118,
+        "name": "노들",
+        "line": "9호선",
+        "latitude": 37.512887,
+        "longitude": 126.953222,
+        "district": "동작구"
+    },
+    {
+        "id": 4119,
+        "name": "흑석(중앙대입구)",
+        "line": "9호선",
+        "latitude": 37.50877,
+        "longitude": 126.963708,
+        "district": "동작구"
+    },
+    {
+        "id": 4120,
+        "name": "동작(현충원)",
+        "line": "9호선",
+        "latitude": 37.502878,
+        "longitude": 126.978153,
+        "district": "동작구"
+    },
+    {
+        "id": 4121,
+        "name": "구반포",
+        "line": "9호선",
+        "latitude": 37.501364,
+        "longitude": 126.987332,
+        "district": "서초구"
+    },
+    {
+        "id": 4122,
+        "name": "신반포",
+        "line": "9호선",
+        "latitude": 37.503415,
+        "longitude": 126.995925,
+        "district": "서초구"
+    },
+    {
+        "id": 4123,
+        "name": "고속터미널",
+        "line": "9호선",
+        "latitude": 37.50598,
+        "longitude": 127.004403,
+        "district": "서초구"
+    },
+    {
+        "id": 4124,
+        "name": "사평",
+        "line": "9호선",
+        "latitude": 37.504206,
+        "longitude": 127.015259,
+        "district": "서초구"
+    },
+    {
+        "id": 4125,
+        "name": "신논현",
+        "line": "9호선",
+        "latitude": 37.504598,
+        "longitude": 127.02506,
+        "district": "강남구"
+    },
+    {
+        "id": 9995,
+        "name": "강일",
+        "line": "5호선",
+        "latitude": 37.55749,
+        "longitude": 127.17593,
+        "district": "강동구"
+    },
+    {
+        "id": 9998,
+        "name": "강일",
+        "line": "5호선",
+        "latitude": 37.55749,
+        "longitude": 127.17593,
+        "district": "강동구"
+    },
+    {
+        "id": 10118,
+        "name": "신논현",
+        "line": "9호선",
+        "latitude": 37.504598,
+        "longitude": 127.02506,
+        "district": "강남구"
+    },
+    {
+        "id": 10119,
+        "name": "사평",
+        "line": "9호선",
+        "latitude": 37.504206,
+        "longitude": 127.015259,
+        "district": "서초구"
+    },
+    {
+        "id": 10120,
+        "name": "고속터미널",
+        "line": "9호선",
+        "latitude": 37.50598,
+        "longitude": 127.004403,
+        "district": "서초구"
+    },
+    {
+        "id": 10121,
+        "name": "신반포",
+        "line": "9호선",
+        "latitude": 37.503415,
+        "longitude": 126.995925,
+        "district": "서초구"
+    },
+    {
+        "id": 10122,
+        "name": "구반포",
+        "line": "9호선",
+        "latitude": 37.501364,
+        "longitude": 126.987332,
+        "district": "서초구"
+    },
+    {
+        "id": 10123,
+        "name": "동작(현충원)",
+        "line": "9호선",
+        "latitude": 37.502878,
+        "longitude": 126.978153,
+        "district": "동작구"
+    },
+    {
+        "id": 10124,
+        "name": "흑석(중앙대입구)",
+        "line": "9호선",
+        "latitude": 37.50877,
+        "longitude": 126.963708,
+        "district": "동작구"
+    },
+    {
+        "id": 10125,
+        "name": "노들",
+        "line": "9호선",
+        "latitude": 37.512887,
+        "longitude": 126.953222,
+        "district": "동작구"
+    },
+    {
+        "id": 10126,
+        "name": "노량진",
+        "line": "9호선",
+        "latitude": 37.513534,
+        "longitude": 126.941005,
+        "district": "동작구"
+    },
+    {
+        "id": 10127,
+        "name": "샛강",
+        "line": "9호선",
+        "latitude": 37.517274,
+        "longitude": 126.928422,
+        "district": "영등포구"
+    },
+    {
+        "id": 10128,
+        "name": "여의도",
+        "line": "9호선",
+        "latitude": 37.52176,
+        "longitude": 126.92403,
+        "district": "영등포구"
+    },
+    {
+        "id": 10129,
+        "name": "국회의사당",
+        "line": "9호선",
+        "latitude": 37.528105,
+        "longitude": 126.917874,
+        "district": "영등포구"
+    },
+    {
+        "id": 10130,
+        "name": "당산",
+        "line": "9호선",
+        "latitude": 37.533406,
+        "longitude": 126.902809,
+        "district": "영등포구"
+    },
+    {
+        "id": 10131,
+        "name": "선유도",
+        "line": "9호선",
+        "latitude": 37.53802,
+        "longitude": 126.893525,
+        "district": "영등포구"
+    },
+    {
+        "id": 10132,
+        "name": "신목동",
+        "line": "9호선",
+        "latitude": 37.544277,
+        "longitude": 126.88308,
+        "district": "양천구"
+    },
+    {
+        "id": 10133,
+        "name": "염창",
+        "line": "9호선",
+        "latitude": 37.546936,
+        "longitude": 126.874916,
+        "district": "양천구"
+    },
+    {
+        "id": 10134,
+        "name": "등촌",
+        "line": "9호선",
+        "latitude": 37.550632,
+        "longitude": 126.865689,
+        "district": "양천구"
+    },
+    {
+        "id": 10135,
+        "name": "증미",
+        "line": "9호선",
+        "latitude": 37.557402,
+        "longitude": 126.861939,
+        "district": "강서구"
+    },
+    {
+        "id": 10136,
+        "name": "가양",
+        "line": "9호선",
+        "latitude": 37.561391,
+        "longitude": 126.854456,
+        "district": "강서구"
+    },
+    {
+        "id": 10137,
+        "name": "양천향교",
+        "line": "9호선",
+        "latitude": 37.568381,
+        "longitude": 126.841333,
+        "district": "강서구"
+    },
+    {
+        "id": 10138,
+        "name": "마곡나루",
+        "line": "9호선",
+        "latitude": 37.566778,
+        "longitude": 126.82731,
+        "district": "강서구"
+    },
+    {
+        "id": 10139,
+        "name": "신방화",
+        "line": "9호선",
+        "latitude": 37.567532,
+        "longitude": 126.816601,
+        "district": "강서구"
+    },
+    {
+        "id": 10140,
+        "name": "공항시장",
+        "line": "9호선",
+        "latitude": 37.563726,
+        "longitude": 126.810678,
+        "district": "강서구"
+    },
+    {
+        "id": 10141,
+        "name": "김포공항",
+        "line": "9호선",
+        "latitude": 37.561916,
+        "longitude": 126.802152,
+        "district": "강서구"
+    },
+    {
+        "id": 10142,
+        "name": "개화",
+        "line": "9호선",
+        "latitude": 37.578608,
+        "longitude": 126.798153,
+        "district": "강서구"
+    },
+    {
+        "id": 10218,
+        "name": "복정",
+        "line": "8호선",
+        "latitude": 37.471052,
+        "longitude": 127.126732,
+        "district": "송파구"
+    },
+    {
+        "id": 10219,
+        "name": "장지",
+        "line": "8호선",
+        "latitude": 37.478703,
+        "longitude": 127.126191,
+        "district": "송파구"
+    },
+    {
+        "id": 10220,
+        "name": "문정",
+        "line": "8호선",
+        "latitude": 37.485855,
+        "longitude": 127.1225,
+        "district": "송파구"
+    },
+    {
+        "id": 10221,
+        "name": "가락시장",
+        "line": "8호선",
+        "latitude": 37.492888,
+        "longitude": 127.118398,
+        "district": "송파구"
+    },
+    {
+        "id": 10222,
+        "name": "송파",
+        "line": "8호선",
+        "latitude": 37.499703,
+        "longitude": 127.112183,
+        "district": "송파구"
+    },
+    {
+        "id": 10223,
+        "name": "석촌",
+        "line": "8호선",
+        "latitude": 37.505557,
+        "longitude": 127.106832,
+        "district": "송파구"
+    },
+    {
+        "id": 10224,
+        "name": "잠실(송파구청)",
+        "line": "8호선",
+        "latitude": 37.514692,
+        "longitude": 127.104338,
+        "district": "송파구"
+    },
+    {
+        "id": 10225,
+        "name": "몽촌토성(평화의문)",
+        "line": "8호선",
+        "latitude": 37.517409,
+        "longitude": 127.112359,
+        "district": "송파구"
+    },
+    {
+        "id": 10226,
+        "name": "강동구청",
+        "line": "8호선",
+        "latitude": 37.530341,
+        "longitude": 127.120508,
+        "district": "강동구"
+    },
+    {
+        "id": 10227,
+        "name": "천호(풍납토성)",
+        "line": "8호선",
+        "latitude": 37.538113,
+        "longitude": 127.123254,
+        "district": "강동구"
+    },
+    {
+        "id": 10228,
+        "name": "암사",
+        "line": "8호선",
+        "latitude": 37.55021,
+        "longitude": 127.127562,
+        "district": "강동구"
+    },
+    {
+        "id": 10238,
+        "name": "온수(성공회대입구)",
+        "line": "7호선",
+        "latitude": 37.492092,
+        "longitude": 126.823023,
+        "district": "구로구"
+    },
+    {
+        "id": 10239,
+        "name": "천왕",
+        "line": "7호선",
+        "latitude": 37.486637,
+        "longitude": 126.838713,
+        "district": "구로구"
+    },
+    {
+        "id": 10242,
+        "name": "가산디지털단지",
+        "line": "7호선",
+        "latitude": 37.480338,
+        "longitude": 126.882656,
+        "district": "금천구"
+    },
+    {
+        "id": 10243,
+        "name": "남구로",
+        "line": "7호선",
+        "latitude": 37.486056,
+        "longitude": 126.887249,
+        "district": "구로구"
+    },
+    {
+        "id": 10244,
+        "name": "대림(구로구청)",
+        "line": "7호선",
+        "latitude": 37.493013,
+        "longitude": 126.897075,
+        "district": "영등포구"
+    },
+    {
+        "id": 10245,
+        "name": "신풍",
+        "line": "7호선",
+        "latitude": 37.50008,
+        "longitude": 126.90993,
+        "district": "영등포구"
+    },
+    {
+        "id": 10246,
+        "name": "보라매",
+        "line": "7호선",
+        "latitude": 37.499872,
+        "longitude": 126.920428,
+        "district": "동작구"
+    },
+    {
+        "id": 10247,
+        "name": "신대방삼거리",
+        "line": "7호선",
+        "latitude": 37.499701,
+        "longitude": 126.928276,
+        "district": "동작구"
+    },
+    {
+        "id": 10248,
+        "name": "장승배기",
+        "line": "7호선",
+        "latitude": 37.504898,
+        "longitude": 126.93915,
+        "district": "동작구"
+    },
+    {
+        "id": 10249,
+        "name": "상도",
+        "line": "7호선",
+        "latitude": 37.502834,
+        "longitude": 126.94791,
+        "district": "동작구"
+    },
+    {
+        "id": 10250,
+        "name": "숭실대입구(살피재)",
+        "line": "7호선",
+        "latitude": 37.496029,
+        "longitude": 126.953822,
+        "district": "동작구"
+    },
+    {
+        "id": 10251,
+        "name": "남성",
+        "line": "7호선",
+        "latitude": 37.484596,
+        "longitude": 126.971251,
+        "district": "동작구"
+    },
+    {
+        "id": 10252,
+        "name": "이수",
+        "line": "7호선",
+        "latitude": 37.485196,
+        "longitude": 126.981605,
+        "district": "동작구"
+    },
+    {
+        "id": 10253,
+        "name": "내방",
+        "line": "7호선",
+        "latitude": 37.487618,
+        "longitude": 126.993513,
+        "district": "서초구"
+    },
+    {
+        "id": 10254,
+        "name": "고속터미널",
+        "line": "7호선",
+        "latitude": 37.503367,
+        "longitude": 127.005068,
+        "district": "서초구"
+    },
+    {
+        "id": 10255,
+        "name": "반포",
+        "line": "7호선",
+        "latitude": 37.508178,
+        "longitude": 127.011727,
+        "district": "서초구"
+    },
+    {
+        "id": 10256,
+        "name": "논현",
+        "line": "7호선",
+        "latitude": 37.511093,
+        "longitude": 127.021415,
+        "district": "강남구"
+    },
+    {
+        "id": 10257,
+        "name": "학동",
+        "line": "7호선",
+        "latitude": 37.514229,
+        "longitude": 127.031656,
+        "district": "강남구"
+    },
+    {
+        "id": 10258,
+        "name": "강남구청",
+        "line": "7호선",
+        "latitude": 37.517179,
+        "longitude": 127.041255,
+        "district": "강남구"
+    },
+    {
+        "id": 10259,
+        "name": "청담",
+        "line": "7호선",
+        "latitude": 37.519365,
+        "longitude": 127.05335,
+        "district": "강남구"
+    },
+    {
+        "id": 10260,
+        "name": "뚝섬유원지",
+        "line": "7호선",
+        "latitude": 37.53154,
+        "longitude": 127.066704,
+        "district": "광진구"
+    },
+    {
+        "id": 10261,
+        "name": "건대입구",
+        "line": "7호선",
+        "latitude": 37.540786,
+        "longitude": 127.071011,
+        "district": "광진구"
+    },
+    {
+        "id": 10262,
+        "name": "어린이대공원(세종대)",
+        "line": "7호선",
+        "latitude": 37.548014,
+        "longitude": 127.074658,
+        "district": "광진구"
+    },
+    {
+        "id": 10263,
+        "name": "군자(능동)",
+        "line": "7호선",
+        "latitude": 37.556897,
+        "longitude": 127.079338,
+        "district": "광진구"
+    },
+    {
+        "id": 10264,
+        "name": "중곡",
+        "line": "7호선",
+        "latitude": 37.565923,
+        "longitude": 127.08432,
+        "district": "광진구"
+    },
+    {
+        "id": 10265,
+        "name": "용마산",
+        "line": "7호선",
+        "latitude": 37.573647,
+        "longitude": 127.086727,
+        "district": "중랑구"
+    },
+    {
+        "id": 10266,
+        "name": "사가정",
+        "line": "7호선",
+        "latitude": 37.580894,
+        "longitude": 127.088478,
+        "district": "중랑구"
+    },
+    {
+        "id": 10267,
+        "name": "면목",
+        "line": "7호선",
+        "latitude": 37.588579,
+        "longitude": 127.087503,
+        "district": "중랑구"
+    },
+    {
+        "id": 10268,
+        "name": "상봉(시외버스터미널)",
+        "line": "7호선",
+        "latitude": 37.595577,
+        "longitude": 127.085716,
+        "district": "중랑구"
+    },
+    {
+        "id": 10269,
+        "name": "중화",
+        "line": "7호선",
+        "latitude": 37.602545,
+        "longitude": 127.079264,
+        "district": "중랑구"
+    },
+    {
+        "id": 10270,
+        "name": "먹골",
+        "line": "7호선",
+        "latitude": 37.610637,
+        "longitude": 127.077725,
+        "district": "중랑구"
+    },
+    {
+        "id": 10271,
+        "name": "태릉입구",
+        "line": "7호선",
+        "latitude": 37.618294,
+        "longitude": 127.075397,
+        "district": "노원구"
+    },
+    {
+        "id": 10272,
+        "name": "공릉(서울과학기술대)",
+        "line": "7호선",
+        "latitude": 37.625742,
+        "longitude": 127.072896,
+        "district": "노원구"
+    },
+    {
+        "id": 10273,
+        "name": "하계",
+        "line": "7호선",
+        "latitude": 37.636352,
+        "longitude": 127.06799,
+        "district": "노원구"
+    },
+    {
+        "id": 10274,
+        "name": "중계",
+        "line": "7호선",
+        "latitude": 37.644583,
+        "longitude": 127.064303,
+        "district": "노원구"
+    },
+    {
+        "id": 10275,
+        "name": "노원",
+        "line": "7호선",
+        "latitude": 37.654836,
+        "longitude": 127.060462,
+        "district": "노원구"
+    },
+    {
+        "id": 10276,
+        "name": "마들",
+        "line": "7호선",
+        "latitude": 37.66494,
+        "longitude": 127.057675,
+        "district": "노원구"
+    },
+    {
+        "id": 10277,
+        "name": "수락산",
+        "line": "7호선",
+        "latitude": 37.67785,
+        "longitude": 127.055315,
+        "district": "노원구"
+    },
+    {
+        "id": 10278,
+        "name": "도봉산",
+        "line": "7호선",
+        "latitude": 37.689241,
+        "longitude": 127.046509,
+        "district": "도봉구"
+    },
+    {
+        "id": 10280,
+        "name": "신내",
+        "line": "6호선",
+        "latitude": 37.613174,
+        "longitude": 127.102231,
+        "district": "중랑구"
+    },
+    {
+        "id": 10281,
+        "name": "봉화산(서울의료원)",
+        "line": "6호선",
+        "latitude": 37.617283,
+        "longitude": 127.091401,
+        "district": "중랑구"
+    },
+    {
+        "id": 10282,
+        "name": "화랑대(서울여대입구)",
+        "line": "6호선",
+        "latitude": 37.620064,
+        "longitude": 127.084689,
+        "district": "중랑구"
+    },
+    {
+        "id": 10283,
+        "name": "태릉입구",
+        "line": "6호선",
+        "latitude": 37.617338,
+        "longitude": 127.074735,
+        "district": "노원구"
+    },
+    {
+        "id": 10284,
+        "name": "석계",
+        "line": "6호선",
+        "latitude": 37.614872,
+        "longitude": 127.065595,
+        "district": "성북구"
+    },
+    {
+        "id": 10285,
+        "name": "돌곶이",
+        "line": "6호선",
+        "latitude": 37.610537,
+        "longitude": 127.056431,
+        "district": "성북구"
+    },
+    {
+        "id": 10286,
+        "name": "상월곡(한국과학기술연구원)",
+        "line": "6호선",
+        "latitude": 37.606377,
+        "longitude": 127.048491,
+        "district": "성북구"
+    },
+    {
+        "id": 10287,
+        "name": "월곡(동덕여대)",
+        "line": "6호선",
+        "latitude": 37.601948,
+        "longitude": 127.041518,
+        "district": "성북구"
+    },
+    {
+        "id": 10288,
+        "name": "고려대(종암)",
+        "line": "6호선",
+        "latitude": 37.590508,
+        "longitude": 127.036296,
+        "district": "성북구"
+    },
+    {
+        "id": 10289,
+        "name": "안암(고대병원앞)",
+        "line": "6호선",
+        "latitude": 37.586272,
+        "longitude": 127.029005,
+        "district": "성북구"
+    },
+    {
+        "id": 10290,
+        "name": "보문",
+        "line": "6호선",
+        "latitude": 37.585274,
+        "longitude": 127.019351,
+        "district": "성북구"
+    },
+    {
+        "id": 10291,
+        "name": "창신",
+        "line": "6호선",
+        "latitude": 37.579661,
+        "longitude": 127.015241,
+        "district": "종로구"
+    },
+    {
+        "id": 10292,
+        "name": "동묘앞",
+        "line": "6호선",
+        "latitude": 37.572279,
+        "longitude": 127.015653,
+        "district": "종로구"
+    },
+    {
+        "id": 10293,
+        "name": "신당",
+        "line": "6호선",
+        "latitude": 37.566154,
+        "longitude": 127.016146,
+        "district": "중구"
+    },
+    {
+        "id": 10294,
+        "name": "청구",
+        "line": "6호선",
+        "latitude": 37.560608,
+        "longitude": 127.013986,
+        "district": "중구"
+    },
+    {
+        "id": 10295,
+        "name": "약수",
+        "line": "6호선",
+        "latitude": 37.554263,
+        "longitude": 127.010358,
+        "district": "중구"
+    },
+    {
+        "id": 10296,
+        "name": "버티고개",
+        "line": "6호선",
+        "latitude": 37.548013,
+        "longitude": 127.007055,
+        "district": "중구"
+    },
+    {
+        "id": 10297,
+        "name": "한강진",
+        "line": "6호선",
+        "latitude": 37.539631,
+        "longitude": 127.001725,
+        "district": "용산구"
+    },
+    {
+        "id": 10298,
+        "name": "이태원",
+        "line": "6호선",
+        "latitude": 37.534488,
+        "longitude": 126.994302,
+        "district": "용산구"
+    },
+    {
+        "id": 10299,
+        "name": "녹사평(용산구청)",
+        "line": "6호선",
+        "latitude": 37.534675,
+        "longitude": 126.986695,
+        "district": "용산구"
+    },
+    {
+        "id": 10300,
+        "name": "삼각지",
+        "line": "6호선",
+        "latitude": 37.535534,
+        "longitude": 126.974032,
+        "district": "용산구"
+    },
+    {
+        "id": 10301,
+        "name": "효창공원앞",
+        "line": "6호선",
+        "latitude": 37.539233,
+        "longitude": 126.961384,
+        "district": "용산구"
+    },
+    {
+        "id": 10302,
+        "name": "공덕",
+        "line": "6호선",
+        "latitude": 37.543555,
+        "longitude": 126.951678,
+        "district": "마포구"
+    },
+    {
+        "id": 10303,
+        "name": "대흥(서강대앞)",
+        "line": "6호선",
+        "latitude": 37.547771,
+        "longitude": 126.942069,
+        "district": "마포구"
+    },
+    {
+        "id": 10304,
+        "name": "광흥창(서강)",
+        "line": "6호선",
+        "latitude": 37.547456,
+        "longitude": 126.931993,
+        "district": "마포구"
+    },
+    {
+        "id": 10305,
+        "name": "상수",
+        "line": "6호선",
+        "latitude": 37.547716,
+        "longitude": 126.922852,
+        "district": "마포구"
+    },
+    {
+        "id": 10306,
+        "name": "합정",
+        "line": "6호선",
+        "latitude": 37.549209,
+        "longitude": 126.913366,
+        "district": "마포구"
+    },
+    {
+        "id": 10307,
+        "name": "망원",
+        "line": "6호선",
+        "latitude": 37.556094,
+        "longitude": 126.910052,
+        "district": "마포구"
+    },
+    {
+        "id": 10308,
+        "name": "마포구청",
+        "line": "6호선",
+        "latitude": 37.563515,
+        "longitude": 126.903343,
+        "district": "마포구"
+    },
+    {
+        "id": 10309,
+        "name": "월드컵경기장(성산)",
+        "line": "6호선",
+        "latitude": 37.569532,
+        "longitude": 126.899298,
+        "district": "마포구"
+    },
+    {
+        "id": 10310,
+        "name": "디지털미디어시티",
+        "line": "6호선",
+        "latitude": 37.576108,
+        "longitude": 126.901391,
+        "district": "마포구"
+    },
+    {
+        "id": 10311,
+        "name": "증산(명지대앞)",
+        "line": "6호선",
+        "latitude": 37.583876,
+        "longitude": 126.909645,
+        "district": "은평구"
+    },
+    {
+        "id": 10312,
+        "name": "새절(신사)",
+        "line": "6호선",
+        "latitude": 37.591148,
+        "longitude": 126.913629,
+        "district": "은평구"
+    },
+    {
+        "id": 10313,
+        "name": "구산",
+        "line": "6호선",
+        "latitude": 37.611377,
+        "longitude": 126.91727,
+        "district": "은평구"
+    },
+    {
+        "id": 10314,
+        "name": "연신내",
+        "line": "6호선",
+        "latitude": 37.618636,
+        "longitude": 126.920625,
+        "district": "은평구"
+    },
+    {
+        "id": 10315,
+        "name": "독바위",
+        "line": "6호선",
+        "latitude": 37.618456,
+        "longitude": 126.933031,
+        "district": "은평구"
+    },
+    {
+        "id": 10316,
+        "name": "불광",
+        "line": "6호선",
+        "latitude": 37.610873,
+        "longitude": 126.92939,
+        "district": "은평구"
+    },
+    {
+        "id": 10317,
+        "name": "역촌",
+        "line": "6호선",
+        "latitude": 37.606021,
+        "longitude": 126.922744,
+        "district": "은평구"
+    },
+    {
+        "id": 10318,
+        "name": "응암",
+        "line": "6호선",
+        "latitude": 37.598605,
+        "longitude": 126.915577,
+        "district": "은평구"
+    },
+    {
+        "id": 10323,
+        "name": "강일",
+        "line": "5호선",
+        "latitude": 37.55749,
+        "longitude": 127.17593,
+        "district": "강동구"
+    },
+    {
+        "id": 10324,
+        "name": "마천",
+        "line": "5호선",
+        "latitude": 37.49499,
+        "longitude": 127.152781,
+        "district": "송파구"
+    },
+    {
+        "id": 10325,
+        "name": "거여",
+        "line": "5호선",
+        "latitude": 37.493105,
+        "longitude": 127.14415,
+        "district": "송파구"
+    },
+    {
+        "id": 10326,
+        "name": "개롱",
+        "line": "5호선",
+        "latitude": 37.498079,
+        "longitude": 127.13482,
+        "district": "송파구"
+    },
+    {
+        "id": 10327,
+        "name": "오금",
+        "line": "5호선",
+        "latitude": 37.502057,
+        "longitude": 127.127938,
+        "district": "송파구"
+    },
+    {
+        "id": 10328,
+        "name": "방이",
+        "line": "5호선",
+        "latitude": 37.508857,
+        "longitude": 127.126133,
+        "district": "송파구"
+    },
+    {
+        "id": 10329,
+        "name": "올림픽공원(한국체대)",
+        "line": "5호선",
+        "latitude": 37.516201,
+        "longitude": 127.130923,
+        "district": "송파구"
+    },
+    {
+        "id": 10330,
+        "name": "둔촌동",
+        "line": "5호선",
+        "latitude": 37.527788,
+        "longitude": 127.136248,
+        "district": "강동구"
+    },
+    {
+        "id": 10331,
+        "name": "상일동",
+        "line": "5호선",
+        "latitude": 37.556712,
+        "longitude": 127.166417,
+        "district": "강동구"
+    },
+    {
+        "id": 10332,
+        "name": "고덕",
+        "line": "5호선",
+        "latitude": 37.555004,
+        "longitude": 127.154151,
+        "district": "강동구"
+    },
+    {
+        "id": 10333,
+        "name": "명일",
+        "line": "5호선",
+        "latitude": 37.55137,
+        "longitude": 127.143999,
+        "district": "강동구"
+    },
+    {
+        "id": 10334,
+        "name": "굽은다리(강동구민회관앞)",
+        "line": "5호선",
+        "latitude": 37.545477,
+        "longitude": 127.142853,
+        "district": "강동구"
+    },
+    {
+        "id": 10335,
+        "name": "길동",
+        "line": "5호선",
+        "latitude": 37.537801,
+        "longitude": 127.140004,
+        "district": "강동구"
+    },
+    {
+        "id": 10336,
+        "name": "강동",
+        "line": "5호선",
+        "latitude": 37.535804,
+        "longitude": 127.132481,
+        "district": "강동구"
+    },
+    {
+        "id": 10337,
+        "name": "천호(풍납토성)",
+        "line": "5호선",
+        "latitude": 37.53864,
+        "longitude": 127.123308,
+        "district": "송파구"
+    },
+    {
+        "id": 10338,
+        "name": "광나루(장신대)",
+        "line": "5호선",
+        "latitude": 37.545303,
+        "longitude": 127.10357,
+        "district": "광진구"
+    },
+    {
+        "id": 10339,
+        "name": "아차산(어린이대공원후문)",
+        "line": "5호선",
+        "latitude": 37.551691,
+        "longitude": 127.089761,
+        "district": "광진구"
+    },
+    {
+        "id": 10340,
+        "name": "군자(능동)",
+        "line": "5호선",
+        "latitude": 37.557088,
+        "longitude": 127.079577,
+        "district": "광진구"
+    },
+    {
+        "id": 10341,
+        "name": "장한평",
+        "line": "5호선",
+        "latitude": 37.56144,
+        "longitude": 127.064623,
+        "district": "성동구"
+    },
+    {
+        "id": 10342,
+        "name": "답십리",
+        "line": "5호선",
+        "latitude": 37.566747,
+        "longitude": 127.052704,
+        "district": "성동구"
+    },
+    {
+        "id": 10343,
+        "name": "마장",
+        "line": "5호선",
+        "latitude": 37.5661,
+        "longitude": 127.042973,
+        "district": "성동구"
+    },
+    {
+        "id": 10344,
+        "name": "왕십리(성동구청)",
+        "line": "5호선",
+        "latitude": 37.56184,
+        "longitude": 127.037059,
+        "district": "성동구"
+    },
+    {
+        "id": 10345,
+        "name": "행당",
+        "line": "5호선",
+        "latitude": 37.557322,
+        "longitude": 127.029476,
+        "district": "성동구"
+    },
+    {
+        "id": 10346,
+        "name": "신금호",
+        "line": "5호선",
+        "latitude": 37.554548,
+        "longitude": 127.020331,
+        "district": "성동구"
+    },
+    {
+        "id": 10347,
+        "name": "청구",
+        "line": "5호선",
+        "latitude": 37.560276,
+        "longitude": 127.013639,
+        "district": "중구"
+    },
+    {
+        "id": 10348,
+        "name": "동대문역사문화공원",
+        "line": "5호선",
+        "latitude": 37.564665,
+        "longitude": 127.005353,
+        "district": "중구"
+    },
+    {
+        "id": 10349,
+        "name": "을지로4가",
+        "line": "5호선",
+        "latitude": 37.567352,
+        "longitude": 126.998032,
+        "district": "중구"
+    },
+    {
+        "id": 10350,
+        "name": "종로3가",
+        "line": "5호선",
+        "latitude": 37.57254,
+        "longitude": 126.990305,
+        "district": "종로구"
+    },
+    {
+        "id": 10351,
+        "name": "광화문(세종문화회관)",
+        "line": "5호선",
+        "latitude": 37.571525,
+        "longitude": 126.97717,
+        "district": "종로구"
+    },
+    {
+        "id": 10352,
+        "name": "서대문",
+        "line": "5호선",
+        "latitude": 37.565773,
+        "longitude": 126.966641,
+        "district": "서대문구"
+    },
+    {
+        "id": 10353,
+        "name": "충정로(경기대입구)",
+        "line": "5호선",
+        "latitude": 37.560236,
+        "longitude": 126.9629,
+        "district": "서대문구"
+    },
+    {
+        "id": 10354,
+        "name": "애오개",
+        "line": "5호선",
+        "latitude": 37.553736,
+        "longitude": 126.95682,
+        "district": "마포구"
+    },
+    {
+        "id": 10355,
+        "name": "공덕",
+        "line": "5호선",
+        "latitude": 37.544431,
+        "longitude": 126.951372,
+        "district": "마포구"
+    },
+    {
+        "id": 10356,
+        "name": "마포",
+        "line": "5호선",
+        "latitude": 37.539574,
+        "longitude": 126.945932,
+        "district": "마포구"
+    },
+    {
+        "id": 10357,
+        "name": "여의나루",
+        "line": "5호선",
+        "latitude": 37.527098,
+        "longitude": 126.932901,
+        "district": "영등포구"
+    },
+    {
+        "id": 10358,
+        "name": "여의도",
+        "line": "5호선",
+        "latitude": 37.521747,
+        "longitude": 126.924357,
+        "district": "영등포구"
+    },
+    {
+        "id": 10359,
+        "name": "신길",
+        "line": "5호선",
+        "latitude": 37.517623,
+        "longitude": 126.914839,
+        "district": "영등포구"
+    },
+    {
+        "id": 10360,
+        "name": "영등포시장",
+        "line": "5호선",
+        "latitude": 37.522669,
+        "longitude": 126.905139,
+        "district": "영등포구"
+    },
+    {
+        "id": 10361,
+        "name": "영등포구청",
+        "line": "5호선",
+        "latitude": 37.5242,
+        "longitude": 126.89503,
+        "district": "영등포구"
+    },
+    {
+        "id": 10362,
+        "name": "양평",
+        "line": "5호선",
+        "latitude": 37.525569,
+        "longitude": 126.886129,
+        "district": "영등포구"
+    },
+    {
+        "id": 10363,
+        "name": "오목교(목동운동장앞)",
+        "line": "5호선",
+        "latitude": 37.524496,
+        "longitude": 126.875181,
+        "district": "양천구"
+    },
+    {
+        "id": 10364,
+        "name": "목동",
+        "line": "5호선",
+        "latitude": 37.526065,
+        "longitude": 126.864931,
+        "district": "양천구"
+    },
+    {
+        "id": 10365,
+        "name": "신정(은행정)",
+        "line": "5호선",
+        "latitude": 37.524997,
+        "longitude": 126.856191,
+        "district": "양천구"
+    },
+    {
+        "id": 10366,
+        "name": "까치산",
+        "line": "5호선",
+        "latitude": 37.531768,
+        "longitude": 126.846683,
+        "district": "강서구"
+    },
+    {
+        "id": 10367,
+        "name": "까치산",
+        "line": "2호선",
+        "latitude": 37.531768,
+        "longitude": 126.846683,
+        "district": "강서구"
+    },
+    {
+        "id": 10368,
+        "name": "화곡",
+        "line": "5호선",
+        "latitude": 37.541513,
+        "longitude": 126.840461,
+        "district": "강서구"
+    },
+    {
+        "id": 10369,
+        "name": "우장산",
+        "line": "5호선",
+        "latitude": 37.548768,
+        "longitude": 126.836318,
+        "district": "강서구"
+    },
+    {
+        "id": 10370,
+        "name": "발산",
+        "line": "5호선",
+        "latitude": 37.558598,
+        "longitude": 126.837668,
+        "district": "강서구"
+    },
+    {
+        "id": 10371,
+        "name": "마곡",
+        "line": "5호선",
+        "latitude": 37.560183,
+        "longitude": 126.825448,
+        "district": "강서구"
+    },
+    {
+        "id": 10372,
+        "name": "송정",
+        "line": "5호선",
+        "latitude": 37.561184,
+        "longitude": 126.811973,
+        "district": "강서구"
+    },
+    {
+        "id": 10373,
+        "name": "김포공항",
+        "line": "5호선",
+        "latitude": 37.562384,
+        "longitude": 126.801292,
+        "district": "강서구"
+    },
+    {
+        "id": 10374,
+        "name": "개화산",
+        "line": "5호선",
+        "latitude": 37.572399,
+        "longitude": 126.806171,
+        "district": "강서구"
+    },
+    {
+        "id": 10375,
+        "name": "방화",
+        "line": "5호선",
+        "latitude": 37.577446,
+        "longitude": 126.812741,
+        "district": "강서구"
+    },
+    {
+        "id": 10643,
+        "name": "남태령",
+        "line": "4호선",
+        "latitude": 37.463873,
+        "longitude": 126.989134,
+        "district": "서초구"
+    },
+    {
+        "id": 10644,
+        "name": "사당",
+        "line": "4호선",
+        "latitude": 37.476955,
+        "longitude": 126.981651,
+        "district": "동작구"
+    },
+    {
+        "id": 10645,
+        "name": "총신대입구(이수)",
+        "line": "4호선",
+        "latitude": 37.486263,
+        "longitude": 126.981989,
+        "district": "동작구"
+    },
+    {
+        "id": 10646,
+        "name": "동작(현충원)",
+        "line": "4호선",
+        "latitude": 37.502852,
+        "longitude": 126.980347,
+        "district": "동작구"
+    },
+    {
+        "id": 10647,
+        "name": "이촌(국립중앙박물관)",
+        "line": "4호선",
+        "latitude": 37.522295,
+        "longitude": 126.974733,
+        "district": "용산구"
+    },
+    {
+        "id": 10648,
+        "name": "신용산",
+        "line": "4호선",
+        "latitude": 37.52917,
+        "longitude": 126.967894,
+        "district": "용산구"
+    },
+    {
+        "id": 10649,
+        "name": "삼각지",
+        "line": "4호선",
+        "latitude": 37.534075,
+        "longitude": 126.9726,
+        "district": "용산구"
+    },
+    {
+        "id": 10650,
+        "name": "숙대입구(갈월)",
+        "line": "4호선",
+        "latitude": 37.54456,
+        "longitude": 126.972106,
+        "district": "용산구"
+    },
+    {
+        "id": 10651,
+        "name": "서울역",
+        "line": "4호선",
+        "latitude": 37.55281,
+        "longitude": 126.972556,
+        "district": "용산구"
+    },
+    {
+        "id": 10652,
+        "name": "회현(남대문시장)",
+        "line": "4호선",
+        "latitude": 37.558514,
+        "longitude": 126.978246,
+        "district": "중구"
+    },
+    {
+        "id": 10653,
+        "name": "명동",
+        "line": "4호선",
+        "latitude": 37.560989,
+        "longitude": 126.986325,
+        "district": "중구"
+    },
+    {
+        "id": 10654,
+        "name": "충무로",
+        "line": "4호선",
+        "latitude": 37.561207,
+        "longitude": 126.99408,
+        "district": "중구"
+    },
+    {
+        "id": 10655,
+        "name": "동대문역사문화공원",
+        "line": "4호선",
+        "latitude": 37.565133,
+        "longitude": 127.007885,
+        "district": "중구"
+    },
+    {
+        "id": 10656,
+        "name": "동대문",
+        "line": "4호선",
+        "latitude": 37.57093,
+        "longitude": 127.009287,
+        "district": "종로구"
+    },
+    {
+        "id": 10657,
+        "name": "혜화",
+        "line": "4호선",
+        "latitude": 37.582336,
+        "longitude": 127.001844,
+        "district": "종로구"
+    },
+    {
+        "id": 10658,
+        "name": "한성대입구(삼선교)",
+        "line": "4호선",
+        "latitude": 37.588458,
+        "longitude": 127.006221,
+        "district": "성북구"
+    },
+    {
+        "id": 10659,
+        "name": "성신여대입구(돈암)",
+        "line": "4호선",
+        "latitude": 37.592612,
+        "longitude": 127.016441,
+        "district": "성북구"
+    },
+    {
+        "id": 10660,
+        "name": "길음",
+        "line": "4호선",
+        "latitude": 37.603407,
+        "longitude": 127.025053,
+        "district": "성북구"
+    },
+    {
+        "id": 10661,
+        "name": "미아사거리",
+        "line": "4호선",
+        "latitude": 37.613292,
+        "longitude": 127.030053,
+        "district": "강북구"
+    },
+    {
+        "id": 10662,
+        "name": "미아(서울사이버대학)",
+        "line": "4호선",
+        "latitude": 37.62667,
+        "longitude": 127.025983,
+        "district": "강북구"
+    },
+    {
+        "id": 10663,
+        "name": "수유(강북구청)",
+        "line": "4호선",
+        "latitude": 37.638052,
+        "longitude": 127.025732,
+        "district": "강북구"
+    },
+    {
+        "id": 10664,
+        "name": "쌍문",
+        "line": "4호선",
+        "latitude": 37.648627,
+        "longitude": 127.034709,
+        "district": "도봉구"
+    },
+    {
+        "id": 10665,
+        "name": "창동",
+        "line": "4호선",
+        "latitude": 37.653088,
+        "longitude": 127.047274,
+        "district": "도봉구"
+    },
+    {
+        "id": 10666,
+        "name": "노원",
+        "line": "4호선",
+        "latitude": 37.65627,
+        "longitude": 127.063276,
+        "district": "노원구"
+    },
+    {
+        "id": 10667,
+        "name": "상계",
+        "line": "4호선",
+        "latitude": 37.660878,
+        "longitude": 127.073572,
+        "district": "노원구"
+    },
+    {
+        "id": 10668,
+        "name": "당고개",
+        "line": "4호선",
+        "latitude": 37.670272,
+        "longitude": 127.079066,
+        "district": "노원구"
+    },
+    {
+        "id": 10672,
+        "name": "오금",
+        "line": "3호선",
+        "latitude": 37.502129,
+        "longitude": 127.128319,
+        "district": "송파구"
+    },
+    {
+        "id": 10673,
+        "name": "경찰병원",
+        "line": "3호선",
+        "latitude": 37.495918,
+        "longitude": 127.12454,
+        "district": "송파구"
+    },
+    {
+        "id": 10674,
+        "name": "가락시장",
+        "line": "3호선",
+        "latitude": 37.492245,
+        "longitude": 127.117757,
+        "district": "송파구"
+    },
+    {
+        "id": 10675,
+        "name": "수서",
+        "line": "3호선",
+        "latitude": 37.487378,
+        "longitude": 127.101907,
+        "district": "강남구"
+    },
+    {
+        "id": 10676,
+        "name": "일원",
+        "line": "3호선",
+        "latitude": 37.483681,
+        "longitude": 127.08439,
+        "district": "강남구"
+    },
+    {
+        "id": 10677,
+        "name": "대청",
+        "line": "3호선",
+        "latitude": 37.493514,
+        "longitude": 127.079532,
+        "district": "강남구"
+    },
+    {
+        "id": 10678,
+        "name": "학여울",
+        "line": "3호선",
+        "latitude": 37.496663,
+        "longitude": 127.070594,
+        "district": "강남구"
+    },
+    {
+        "id": 10679,
+        "name": "대치",
+        "line": "3호선",
+        "latitude": 37.494612,
+        "longitude": 127.063642,
+        "district": "강남구"
+    },
+    {
+        "id": 10680,
+        "name": "도곡",
+        "line": "3호선",
+        "latitude": 37.490922,
+        "longitude": 127.055452,
+        "district": "강남구"
+    },
+    {
+        "id": 10681,
+        "name": "매봉",
+        "line": "3호선",
+        "latitude": 37.486947,
+        "longitude": 127.046769,
+        "district": "강남구"
+    },
+    {
+        "id": 10682,
+        "name": "양재(서초구청)",
+        "line": "3호선",
+        "latitude": 37.484477,
+        "longitude": 127.033902,
+        "district": "서초구"
+    },
+    {
+        "id": 10683,
+        "name": "남부터미널(예술의전당)",
+        "line": "3호선",
+        "latitude": 37.485013,
+        "longitude": 127.016189,
+        "district": "서초구"
+    },
+    {
+        "id": 10684,
+        "name": "교대(법원.검찰청)",
+        "line": "3호선",
+        "latitude": 37.493025,
+        "longitude": 127.013786,
+        "district": "서초구"
+    },
+    {
+        "id": 10685,
+        "name": "고속터미널",
+        "line": "3호선",
+        "latitude": 37.504891,
+        "longitude": 127.004916,
+        "district": "서초구"
+    },
+    {
+        "id": 10686,
+        "name": "잠원",
+        "line": "3호선",
+        "latitude": 37.512759,
+        "longitude": 127.01122,
+        "district": "서초구"
+    },
+    {
+        "id": 10687,
+        "name": "신사",
+        "line": "3호선",
+        "latitude": 37.516334,
+        "longitude": 127.020114,
+        "district": "강남구"
+    },
+    {
+        "id": 10688,
+        "name": "압구정",
+        "line": "3호선",
+        "latitude": 37.527072,
+        "longitude": 127.028461,
+        "district": "강남구"
+    },
+    {
+        "id": 10689,
+        "name": "옥수",
+        "line": "3호선",
+        "latitude": 37.541684,
+        "longitude": 127.017269,
+        "district": "성동구"
+    },
+    {
+        "id": 10690,
+        "name": "금호",
+        "line": "3호선",
+        "latitude": 37.548034,
+        "longitude": 127.015872,
+        "district": "성동구"
+    },
+    {
+        "id": 10691,
+        "name": "약수",
+        "line": "3호선",
+        "latitude": 37.554867,
+        "longitude": 127.010541,
+        "district": "중구"
+    },
+    {
+        "id": 10692,
+        "name": "동대입구",
+        "line": "3호선",
+        "latitude": 37.559052,
+        "longitude": 127.005602,
+        "district": "중구"
+    },
+    {
+        "id": 10693,
+        "name": "충무로",
+        "line": "3호선",
+        "latitude": 37.56143,
+        "longitude": 126.994072,
+        "district": "중구"
+    },
+    {
+        "id": 10694,
+        "name": "을지로3가",
+        "line": "3호선",
+        "latitude": 37.566672,
+        "longitude": 126.992548,
+        "district": "중구"
+    },
+    {
+        "id": 10695,
+        "name": "종로3가",
+        "line": "3호선",
+        "latitude": 37.571605,
+        "longitude": 126.991791,
+        "district": "종로구"
+    },
+    {
+        "id": 10696,
+        "name": "안국",
+        "line": "3호선",
+        "latitude": 37.576477,
+        "longitude": 126.985443,
+        "district": "종로구"
+    },
+    {
+        "id": 10697,
+        "name": "경복궁(정부서울청사)",
+        "line": "3호선",
+        "latitude": 37.575762,
+        "longitude": 126.97353,
+        "district": "종로구"
+    },
+    {
+        "id": 10698,
+        "name": "독립문",
+        "line": "3호선",
+        "latitude": 37.574571,
+        "longitude": 126.957748,
+        "district": "서대문구"
+    },
+    {
+        "id": 10699,
+        "name": "무악재",
+        "line": "3호선",
+        "latitude": 37.582299,
+        "longitude": 126.950291,
+        "district": "서대문구"
+    },
+    {
+        "id": 10700,
+        "name": "홍제",
+        "line": "3호선",
+        "latitude": 37.589066,
+        "longitude": 126.943736,
+        "district": "서대문구"
+    },
+    {
+        "id": 10701,
+        "name": "녹번",
+        "line": "3호선",
+        "latitude": 37.600927,
+        "longitude": 126.935756,
+        "district": "은평구"
+    },
+    {
+        "id": 10702,
+        "name": "불광",
+        "line": "3호선",
+        "latitude": 37.610553,
+        "longitude": 126.92982,
+        "district": "은평구"
+    },
+    {
+        "id": 10703,
+        "name": "연신내",
+        "line": "3호선",
+        "latitude": 37.619229,
+        "longitude": 126.921038,
+        "district": "은평구"
+    },
+    {
+        "id": 10704,
+        "name": "구파발",
+        "line": "3호선",
+        "latitude": 37.636763,
+        "longitude": 126.918821,
+        "district": "은평구"
+    },
+    {
+        "id": 10706,
+        "name": "용두(동대문구청)",
+        "line": "2호선",
+        "latitude": 37.574028,
+        "longitude": 127.038091,
+        "district": "동대문구"
+    },
+    {
+        "id": 10707,
+        "name": "신정네거리",
+        "line": "2호선",
+        "latitude": 37.520074,
+        "longitude": 126.852912,
+        "district": "양천구"
+    },
+    {
+        "id": 10708,
+        "name": "양천구청",
+        "line": "2호선",
+        "latitude": 37.512398,
+        "longitude": 126.865819,
+        "district": "양천구"
+    },
+    {
+        "id": 10709,
+        "name": "도림천",
+        "line": "2호선",
+        "latitude": 37.514287,
+        "longitude": 126.882768,
+        "district": "구로구"
+    },
+    {
+        "id": 10710,
+        "name": "신설동",
+        "line": "2호선",
+        "latitude": 37.574747,
+        "longitude": 127.024932,
+        "district": "동대문구"
+    },
+    {
+        "id": 10711,
+        "name": "신답",
+        "line": "2호선",
+        "latitude": 37.57004,
+        "longitude": 127.046481,
+        "district": "성동구"
+    },
+    {
+        "id": 10712,
+        "name": "용답",
+        "line": "2호선",
+        "latitude": 37.561904,
+        "longitude": 127.050899,
+        "district": "성동구"
+    },
+    {
+        "id": 10713,
+        "name": "충정로(경기대입구)",
+        "line": "2호선",
+        "latitude": 37.559704,
+        "longitude": 126.964378,
+        "district": "서대문구"
+    },
+    {
+        "id": 10714,
+        "name": "아현",
+        "line": "2호선",
+        "latitude": 37.557345,
+        "longitude": 126.956141,
+        "district": "마포구"
+    },
+    {
+        "id": 10715,
+        "name": "이대",
+        "line": "2호선",
+        "latitude": 37.556733,
+        "longitude": 126.946013,
+        "district": "마포구"
+    },
+    {
+        "id": 10716,
+        "name": "신촌",
+        "line": "2호선",
+        "latitude": 37.555131,
+        "longitude": 126.936926,
+        "district": "서대문구"
+    },
+    {
+        "id": 10717,
+        "name": "홍대입구",
+        "line": "2호선",
+        "latitude": 37.55679,
+        "longitude": 126.923708,
+        "district": "마포구"
+    },
+    {
+        "id": 10718,
+        "name": "합정",
+        "line": "2호선",
+        "latitude": 37.549457,
+        "longitude": 126.913808,
+        "district": "마포구"
+    },
+    {
+        "id": 10719,
+        "name": "당산",
+        "line": "2호선",
+        "latitude": 37.534946,
+        "longitude": 126.902767,
+        "district": "영등포구"
+    },
+    {
+        "id": 10720,
+        "name": "영등포구청",
+        "line": "2호선",
+        "latitude": 37.525706,
+        "longitude": 126.89661,
+        "district": "영등포구"
+    },
+    {
+        "id": 10721,
+        "name": "문래",
+        "line": "2호선",
+        "latitude": 37.517933,
+        "longitude": 126.89476,
+        "district": "영등포구"
+    },
+    {
+        "id": 10722,
+        "name": "신도림",
+        "line": "2호선",
+        "latitude": 37.508961,
+        "longitude": 126.891084,
+        "district": "구로구"
+    },
+    {
+        "id": 10723,
+        "name": "대림(구로구청)",
+        "line": "2호선",
+        "latitude": 37.493243,
+        "longitude": 126.894932,
+        "district": "구로구"
+    },
+    {
+        "id": 10724,
+        "name": "구로디지털단지",
+        "line": "2호선",
+        "latitude": 37.485266,
+        "longitude": 126.901401,
+        "district": "영등포구"
+    },
+    {
+        "id": 10725,
+        "name": "신대방",
+        "line": "2호선",
+        "latitude": 37.487462,
+        "longitude": 126.913149,
+        "district": "관악구"
+    },
+    {
+        "id": 10726,
+        "name": "신림",
+        "line": "2호선",
+        "latitude": 37.484201,
+        "longitude": 126.929715,
+        "district": "관악구"
+    },
+    {
+        "id": 10727,
+        "name": "봉천",
+        "line": "2호선",
+        "latitude": 37.482362,
+        "longitude": 126.941892,
+        "district": "관악구"
+    },
+    {
+        "id": 10728,
+        "name": "서울대입구(관악구청)",
+        "line": "2호선",
+        "latitude": 37.481247,
+        "longitude": 126.952739,
+        "district": "관악구"
+    },
+    {
+        "id": 10729,
+        "name": "낙성대",
+        "line": "2호선",
+        "latitude": 37.47693,
+        "longitude": 126.963693,
+        "district": "관악구"
+    },
+    {
+        "id": 10730,
+        "name": "사당",
+        "line": "2호선",
+        "latitude": 37.476538,
+        "longitude": 126.981544,
+        "district": "관악구"
+    },
+    {
+        "id": 10731,
+        "name": "방배",
+        "line": "2호선",
+        "latitude": 37.481426,
+        "longitude": 126.997596,
+        "district": "서초구"
+    },
+    {
+        "id": 10732,
+        "name": "서초",
+        "line": "2호선",
+        "latitude": 37.491897,
+        "longitude": 127.007917,
+        "district": "서초구"
+    },
+    {
+        "id": 10733,
+        "name": "교대(법원.검찰청)",
+        "line": "2호선",
+        "latitude": 37.493961,
+        "longitude": 127.014667,
+        "district": "서초구"
+    },
+    {
+        "id": 10734,
+        "name": "강남",
+        "line": "2호선",
+        "latitude": 37.49799,
+        "longitude": 127.027912,
+        "district": "강남구"
+    },
+    {
+        "id": 10735,
+        "name": "역삼",
+        "line": "2호선",
+        "latitude": 37.500622,
+        "longitude": 127.036456,
+        "district": "강남구"
+    },
+    {
+        "id": 10736,
+        "name": "선릉",
+        "line": "2호선",
+        "latitude": 37.504286,
+        "longitude": 127.048203,
+        "district": "강남구"
+    },
+    {
+        "id": 10737,
+        "name": "삼성(무역센터)",
+        "line": "2호선",
+        "latitude": 37.508844,
+        "longitude": 127.06316,
+        "district": "강남구"
+    },
+    {
+        "id": 10738,
+        "name": "종합운동장",
+        "line": "2호선",
+        "latitude": 37.511022,
+        "longitude": 127.073704,
+        "district": "송파구"
+    },
+    {
+        "id": 10739,
+        "name": "잠실새내",
+        "line": "2호선",
+        "latitude": 37.511687,
+        "longitude": 127.086162,
+        "district": "송파구"
+    },
+    {
+        "id": 10740,
+        "name": "잠실(송파구청)",
+        "line": "2호선",
+        "latitude": 37.513262,
+        "longitude": 127.100159,
+        "district": "송파구"
+    },
+    {
+        "id": 10741,
+        "name": "잠실나루",
+        "line": "2호선",
+        "latitude": 37.520733,
+        "longitude": 127.10379,
+        "district": "송파구"
+    },
+    {
+        "id": 10742,
+        "name": "강변(동서울터미널)",
+        "line": "2호선",
+        "latitude": 37.535095,
+        "longitude": 127.094681,
+        "district": "광진구"
+    },
+    {
+        "id": 10743,
+        "name": "구의(광진구청)",
+        "line": "2호선",
+        "latitude": 37.537077,
+        "longitude": 127.085916,
+        "district": "광진구"
+    },
+    {
+        "id": 10744,
+        "name": "건대입구",
+        "line": "2호선",
+        "latitude": 37.540373,
+        "longitude": 127.069191,
+        "district": "광진구"
+    },
+    {
+        "id": 10745,
+        "name": "성수",
+        "line": "2호선",
+        "latitude": 37.544581,
+        "longitude": 127.055961,
+        "district": "성동구"
+    },
+    {
+        "id": 10746,
+        "name": "뚝섬",
+        "line": "2호선",
+        "latitude": 37.547184,
+        "longitude": 127.047367,
+        "district": "성동구"
+    },
+    {
+        "id": 10747,
+        "name": "한양대",
+        "line": "2호선",
+        "latitude": 37.555273,
+        "longitude": 127.043655,
+        "district": "성동구"
+    },
+    {
+        "id": 10748,
+        "name": "왕십리(성동구청)",
+        "line": "2호선",
+        "latitude": 37.561238,
+        "longitude": 127.036954,
+        "district": "성동구"
+    },
+    {
+        "id": 10749,
+        "name": "상왕십리",
+        "line": "2호선",
+        "latitude": 37.564354,
+        "longitude": 127.029354,
+        "district": "성동구"
+    },
+    {
+        "id": 10750,
+        "name": "신당",
+        "line": "2호선",
+        "latitude": 37.56564,
+        "longitude": 127.019614,
+        "district": "중구"
+    },
+    {
+        "id": 10751,
+        "name": "동대문역사문화공원",
+        "line": "2호선",
+        "latitude": 37.565613,
+        "longitude": 127.009054,
+        "district": "중구"
+    },
+    {
+        "id": 10752,
+        "name": "을지로4가",
+        "line": "2호선",
+        "latitude": 37.566595,
+        "longitude": 126.997817,
+        "district": "중구"
+    },
+    {
+        "id": 10753,
+        "name": "을지로3가",
+        "line": "2호선",
+        "latitude": 37.566306,
+        "longitude": 126.991696,
+        "district": "중구"
+    },
+    {
+        "id": 10754,
+        "name": "을지로입구",
+        "line": "2호선",
+        "latitude": 37.566014,
+        "longitude": 126.982618,
+        "district": "중구"
+    },
+    {
+        "id": 10755,
+        "name": "시청",
+        "line": "2호선",
+        "latitude": 37.563588,
+        "longitude": 126.975411,
+        "district": "중구"
+    },
+    {
+        "id": 10756,
+        "name": "동묘앞",
+        "line": "1호선",
+        "latitude": 37.573197,
+        "longitude": 127.01648,
+        "district": "종로구"
+    },
+    {
+        "id": 10757,
+        "name": "청량리(서울시립대입구)",
+        "line": "1호선",
+        "latitude": 37.579956,
+        "longitude": 127.044585,
+        "district": "동대문구"
+    },
+    {
+        "id": 10758,
+        "name": "제기동",
+        "line": "1호선",
+        "latitude": 37.578103,
+        "longitude": 127.034893,
+        "district": "동대문구"
+    },
+    {
+        "id": 10759,
+        "name": "신설동",
+        "line": "1호선",
+        "latitude": 37.576048,
+        "longitude": 127.024634,
+        "district": "동대문구"
+    },
+    {
+        "id": 10760,
+        "name": "동대문",
+        "line": "1호선",
+        "latitude": 37.571687,
+        "longitude": 127.01093,
+        "district": "종로구"
+    },
+    {
+        "id": 10761,
+        "name": "종로5가",
+        "line": "1호선",
+        "latitude": 37.570926,
+        "longitude": 127.001849,
+        "district": "종로구"
+    },
+    {
+        "id": 10762,
+        "name": "종로3가",
+        "line": "1호선",
+        "latitude": 37.570406,
+        "longitude": 126.991847,
+        "district": "종로구"
+    },
+    {
+        "id": 10763,
+        "name": "종각",
+        "line": "1호선",
+        "latitude": 37.570161,
+        "longitude": 126.982923,
+        "district": "종로구"
+    },
+    {
+        "id": 10764,
+        "name": "시청",
+        "line": "1호선",
+        "latitude": 37.565715,
+        "longitude": 126.977088,
+        "district": "중구"
+    },
+    {
+        "id": 10765,
+        "name": "서울역",
+        "line": "1호선",
+        "latitude": 37.556228,
+        "longitude": 126.972135,
+        "district": "중구"
+    }
+]
