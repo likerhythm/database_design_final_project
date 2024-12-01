@@ -1,25 +1,50 @@
-{% load static %} 
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
     <link rel="stylesheet" href="{% static 'styles.css' %}"/>
+    <title>Main Page</title>
+    <style>
+        /* 기본 설정 */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* 수평 중앙 정렬 */
+            align-items: center;    /* 수직 중앙 정렬 */
+            height: 100vh;          /* 화면 전체 높이 */
+            background-color: #f4f4f4; /* 배경색 설정 (선택 사항) */
+            font-family: Arial, sans-serif;
+        }
+
+        /* 컨테이너 스타일 */
+        .container {
+            text-align: center; /* 텍스트 중앙 정렬 */
+            background-color: #ffffff; /* 컨테이너 배경색 */
+            padding: 20px; /* 내부 여백 */
+            border-radius: 10px; /* 모서리 둥글게 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to the Website</h1>
-        <p>Please choose an action:</p>
+        <h1>Welcome to Seoul Subway Data Shop</h1>
         <div>
           {% if name %}
             <p>Hello, {{ name }}!</p>
-            <a href="/subway-view/">Subway View</a>
+            <a href="/subway-view/">Let's go</a>
             <a href="/my-page/">My Page</a>
+            <!-- 로그아웃 버튼 -->
+            <form action="/logout/" method="post" style="display: inline;">
+                {% csrf_token %}
+                <button type="submit">Logout</button>
+            </form>
           {% else %}
             <a href="/login/">Login</a>
             <a href="/register/">Register</a>
-            <a href="/subway-view/">Subway View</a>
           {% endif %}
         </div>
     </div>

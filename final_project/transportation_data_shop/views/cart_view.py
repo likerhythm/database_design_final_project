@@ -87,10 +87,11 @@ def purchase(request):
                     # JSON 데이터 생성
                     station_data, edge_data = make_json(custom_name)
                     json_data = {
+                        'name': custom_name,
                         'stations': station_data,
                         'edges': edge_data,
                     }
-                    print(json_data)
+                    # print(json_data)
                     json_data_list.append(json_data)
 
                     # 데이터베이스 작업
@@ -122,7 +123,7 @@ def purchase(request):
           print(f'json_data_list: {json_data_list}')
           # JSON 파일 저장
           for json_data in json_data_list:
-              output_filename = f"{output_directory}/{custom_name}.json"
+              output_filename = f"{output_directory}/{json_data['name']}.json"
               with open(output_filename, "w", encoding="utf-8") as json_file:
                   print('json 파일 저장')
                   json.dump(json_data, json_file, ensure_ascii=False, indent=4)
@@ -130,7 +131,7 @@ def purchase(request):
               # 파일 이름 db에 저장
               with connection.cursor() as cursor:
 
-                cursor.execute('INSERT INTO file_names (user_id, file_name) VALUES (%s, %s)', [user_id, custom_name])
+                cursor.execute('INSERT INTO file_names (user_id, file_name) VALUES (%s, %s)', [user_id, json_data['name']])
               print(f"JSON 파일이 생성되었습니다: {output_filename}")
         except FileNotFoundError as e:
             print(f"파일 저장 실패: 디렉토리가 존재하지 않습니다. {e}")

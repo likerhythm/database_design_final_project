@@ -6,11 +6,14 @@ from django.shortcuts import render
 def get(request):
   try:
     name = request.session.get('name')
+    print(f'name: {name}')
     with connection.cursor() as cursor:
-      cursor.execute('SELECT cash FROM users WHERE name = %s', name)
+      cursor.execute('SELECT cash FROM users WHERE name = %s', [name])
       result = cursor.fetchone()
       cash = result[0]
+      print(f'cash: {cash}')
     user_id = request.session.get('user_id')
+    print(f'user_id: {user_id}')
     with connection.cursor() as cursor:
       cursor.execute('SELECT file_name FROM file_names WHERE user_id = %s', [user_id])
       result = cursor.fetchall()

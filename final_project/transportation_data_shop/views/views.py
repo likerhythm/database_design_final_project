@@ -3,7 +3,7 @@ from django.db import connection
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render, redirect
 from django.views import View
-from ..models import Cart, SubwayStation
+from ..models import SubwayStation
 from ..models import SubwayEdge
 import folium
 

@@ -52,3 +52,7 @@ def register_view(request):
         return redirect('login')  # 회원가입 후 로그인 페이지로 리다이렉트
 
     return render(request, 'register.html')  # GET 요청일 경우 회원가입 페이지 렌더링
+
+def logout(request):
+    request.session.flush()
+    return redirect('/')

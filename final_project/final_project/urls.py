@@ -38,4 +38,5 @@ urlpatterns = [
     path('my-page/', user_view.get, name='my_page'),  # 마이페이지
     path('download/<str:file_name>/', download_view.download_file, name='download_file'),
     path('charge-cash/', cash_view.charge_cash, name='charge_cash'),
+    path('logout/', auth_view.logout, name='logout'),
 ]
