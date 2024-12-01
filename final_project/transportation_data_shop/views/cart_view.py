@@ -79,18 +79,26 @@ def purchase(request):
                         {'error': '잔액 부족', 'message': f'{total_cost - user_cash}캐시가 부족합니다.'},
                         status=400
                     )
+        with connection.cursor() as cursor:
+            for item in items:
+                    custom_name = item.get('custom_name')
+                    cost = item.get('cost')
 
-        for item in items:
-          custom_name = item.get('custom_name')
-          cost = item.get('cost')
+                    # JSON 데이터 생성
+                    station_data, edge_data = make_json(custom_name)
+                    json_data = {
+                        'stations': station_data,
+                        'edges': edge_data,
+                    }
+                    print(json_data)
+                    json_data_list.append(json_data)
 
-          json_data = make_json(custom_name)
-          json_data_list.append(json_data)
+                    # 데이터베이스 작업
+                    cursor.execute('DELETE FROM cart_products WHERE custom_name = %s', [custom_name])
+                    cursor.execute('UPDATE users SET cash = cash - %s WHERE id = %s', [cost, user_id])
 
-          with connection.cursor() as cursor:
-            cursor.execute('DELETE FROM cart_products WHERE custom_name = %s', [custom_name])
-            cursor.execute('UPDATE users SET cash = cash - %s WHERE id = %s', [cost, user_id])
-          print(f"구매 항목: 별칭={custom_name}, 가격={cost}원")
+                    # 성공 메시지 출력
+                    print(f"구매 항목: 별칭={custom_name}, 가격={cost}원")
       
         print('구매 완료')
         # 남아 있는 장바구니 데이터를 가져오기
@@ -111,14 +119,17 @@ def purchase(request):
           output_directory = f"files/{user_id}"
           os.makedirs(output_directory, exist_ok=True)
 
+          print(f'json_data_list: {json_data_list}')
           # JSON 파일 저장
           for json_data in json_data_list:
               output_filename = f"{output_directory}/{custom_name}.json"
               with open(output_filename, "w", encoding="utf-8") as json_file:
+                  print('json 파일 저장')
                   json.dump(json_data, json_file, ensure_ascii=False, indent=4)
               
               # 파일 이름 db에 저장
               with connection.cursor() as cursor:
+
                 cursor.execute('INSERT INTO file_names (user_id, file_name) VALUES (%s, %s)', [user_id, custom_name])
               print(f"JSON 파일이 생성되었습니다: {output_filename}")
         except FileNotFoundError as e:
@@ -145,26 +156,87 @@ def purchase(request):
   return JsonResponse({'error': '잘못된 요청입니다.'}, status=400)
 
 def make_json(custom_name):
-    with connection.cursor() as cursor:
-      cursor.execute('SELECT `lines`, districts FROM cart_products WHERE custom_name = %s', [custom_name])
-      result = cursor.fetchone()
-      lines = result[0]
-      districts = result[1]
-      line_list = lines.split(',')
-      district_list = districts.split(',')
-      query = 'SELECT * FROM subway_stations WHERE `line` IN %s and `district` IN %s'
-      cursor.execute(query, [tuple(line_list), tuple(district_list)])
-      filtered_stations = cursor.fetchall()
+    try:
+        with connection.cursor() as cursor:
+            try:
+                # cart_products 테이블에서 'lines'와 'districts' 가져오기
+                cursor.execute('SELECT `lines`, districts FROM cart_products WHERE custom_name = %s', [custom_name])
+                result = cursor.fetchone()
 
-      stations_data = []
-      for station in filtered_stations:
-        station_info = {
-            "id": station[0],
-            "name": station[1],
-            "line": station[2],
-            "latitude": station[3],
-            "longitude": station[4],
-            "district": station[5],
-        }
-        stations_data.append(station_info)
-    return stations_data
+                if result is None:
+                    raise ValueError(f"No data found for custom_name: {custom_name}")
+
+                lines = result[0]
+                districts = result[1]
+
+                # 'lines' 리스트 변환 및 첫 글자 추출
+                print(lines.split(','))
+                line_list = lines.split(',')
+                print(line_list)
+
+                # 'districts' 리스트 변환
+                district_list = districts.split(',')
+
+                # subway_stations에서 필터링된 데이터 가져오기
+                station_query = 'SELECT * FROM subway_stations WHERE `line` IN %s AND `district` IN %s'
+                cursor.execute(station_query, [tuple(line_list), tuple(district_list)])
+                filtered_stations = cursor.fetchall()
+
+                if not filtered_stations:
+                    raise ValueError("No matching stations found for the given criteria.")
+
+            except Exception as e:
+                print(f"Error during station query: {e}")
+                connection.rollback()
+                return [], []
+
+            # subway_edges에서 필터링된 데이터 가져오기
+            try:
+                station_id_list = [station[0] for station in filtered_stations]
+                
+                line_list = [line[0] for line in line_list]
+                line_list.append('환승')
+                edge_query = 'SELECT * FROM subway_edges WHERE `line` IN %s AND (start_id IN %s OR end_id IN %s)'
+                cursor.execute(edge_query, [tuple(line_list), tuple(station_id_list), tuple(station_id_list)])
+                filtered_edges = cursor.fetchall()
+
+                if not filtered_edges:
+                    raise ValueError("No matching edges found for the given criteria.")
+
+            except Exception as e:
+                print(f"Error during edge query: {e}")
+                connection.rollback()
+                return [], []
+
+        # station 데이터 구성
+        stations_data = [
+            {
+                "id": station[0],
+                "name": station[1],
+                "line": station[2],
+                "latitude": station[3],
+                "longitude": station[4],
+                "district": station[5],
+            }
+            for station in filtered_stations
+        ]
+
+        # edge 데이터 구성
+        edges_data = [
+            {
+                'id': edge[0],
+                'start_id': edge[1],
+                'end_id': edge[2],
+                'cost': edge[3],
+                'line': edge[4],
+                'type': edge[5],
+            }
+            for edge in filtered_edges
+        ]
+
+        return stations_data, edges_data
+
+    except Exception as e:
+        print(f"Database operation failed: {e}")
+        return [], []
+
